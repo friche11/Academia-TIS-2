@@ -1,4 +1,4 @@
-# TITULO DO PROJETO
+# ConectaGym
 
 
 **Camila Melo Ferreira, strangerxgrimes@gmail.com**
@@ -9,7 +9,7 @@
 
 **Samuel Lincoln de Oliveira Gomes, email do aluno 3**
 
-**Victor de Souza Friche Passos, email do aluno 3**
+**Victor de Souza Friche Passos, vicfriche@gmail.com**
 
 ---
 
@@ -18,9 +18,6 @@ Professores:
 **Hugo Bastos de Paula**
 
 **Eveline Alonso Veloso**
-
-**Thiago Augusto Nicolini Silva**
-
 
 ---
 
