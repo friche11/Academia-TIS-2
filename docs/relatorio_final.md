@@ -69,8 +69,11 @@ desenvolvimento do seu trabalho e, caso deseje, desta-que alguma contribuição 
 ## 2. Participantes do processo
 
 O desenvolvimento de um software para academia que conecta alunos inexperientes e personal trainers envolve diversos participantes que são fundamentais para o funcionamento dos processos. A seguir, são descritos os diferentes perfis dos participantes do processo. 
+
 Em primeiro lugar, temos o próprio personal trainer, profissionais especializados em treinamento físico e seu objetivo principal no uso do software é oferecer orientações personalizadas e suporte aos alunos inexperientes. É o responsável por criar fichas de treino para seus clientes, atualizar as fichas e marcar aulas. Seu perfil pode variar em idade, gênero e nível de experiência.  
+
 Outro participante importante é o aluno. Ele deve fornecer informações sobre sua condição física atual, como idade, peso, altura, histórico de lesões e condições médicas, para que o personal trainer possa adaptar os treinos de acordo com as necessidades individuais de cada um. Seu objetivo no uso do software é ter acesso a um programa de treinamento personalizado e receber orientações do personal trainer para alcançar seus objetivos. O aluno é responsável por registrar seu progresso no treino, comunicando ao personal sobre qualquer problema e também pode marcar aulas. Seu perfil pode variar em idade, gênero e histórico de saúde. 
+
 Além desses, temos o gerente de academia. Responsável pela administração da academia e pela gestão de pessoal. Seu objetivo principal no uso do software é garantir a eficiência das operações e assegurar a satisfação dos alunos e dos personal trainers. Seu perfil pode variar em idade, gênero e formação acadêmica. 
 
 ## 3. Modelagem do processo de negócio
