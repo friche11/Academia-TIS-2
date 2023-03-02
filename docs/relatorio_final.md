@@ -7,7 +7,7 @@
 
 **Rafael Ferraz Barra, email do aluno 3**
 
-**Samuel Lincoln de Oliveira Gomes, email do aluno 3**
+**Samuel Lincoln de Oliveira Gomes, samuelincoln1@gmail.com**
 
 **Victor de Souza Friche Passos, vicfriche@gmail.com**
 
