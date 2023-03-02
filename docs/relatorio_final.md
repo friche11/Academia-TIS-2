@@ -1,11 +1,15 @@
 # TITULO DO PROJETO
 
 
-**Nome completo do Aluno 1, email do aluno 1**
+**Camila Melo Ferreira, email do aluno 1**
 
-**Nome completo do Aluno 2, email do aluno 2**
+**Luana Fleury Braz, luana.fleury4@gmail.com**
 
-**Nome completo do Aluno 3, email do aluno 3**
+**Rafael Ferraz Barra, email do aluno 3**
+
+**Samuel Lincoln de Oliveira Gomes, email do aluno 3**
+
+**Victor de Souza Friche Passos, email do aluno 3**
 
 ---
 
