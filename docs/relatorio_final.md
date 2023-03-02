@@ -1,7 +1,7 @@
 # TITULO DO PROJETO
 
 
-**Camila Melo Ferreira, email do aluno 1**
+**Camila Melo Ferreira, strangerxgrimes@gmail.com**
 
 **Luana Fleury, luana.fleury4@gmail.com**
 
