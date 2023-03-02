@@ -3,7 +3,7 @@
 
 **Camila Melo Ferreira, email do aluno 1**
 
-**Luana Fleury Braz, luana.fleury4@gmail.com**
+**Luana Fleury, luana.fleury4@gmail.com**
 
 **Rafael Ferraz Barra, email do aluno 3**
 
