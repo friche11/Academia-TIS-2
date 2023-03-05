@@ -62,8 +62,9 @@ concentrar a sua prática investigativa, ou como você vai aprofundar no seu tra
 
     1.4 Justificativas
 
-Mostre também as **justificativas** para o 
-desenvolvimento do seu trabalho e, caso deseje, desta-que alguma contribuição do trabalho.
+Muitas pessoas que ingressam na academia possuem pouca ou nenhuma experiência com treinamentos físicos.Tendo isso em vista, os alunos encontram dificuldade em criar rotinas de exercícios eficazes sem a orientação de um personal trainer. Entretanto, esse serviço possui altas taxas e nem sempre é possível encontrar um personal competente e que atenda à suas necessidades. Nesse sentido, o software ConectaGym busca oferecer uma alternativa acessível conectando os alunos a personal trainers qualificados a um preço razoável.
+Ademais, os personal trainers frequentemente têm dificuldade em encontrar novos clientes e estabelecer um negócio confiável. Nosso software resolve esse problema, oferecendo maior visibilidade e auxiliando na construção de uma base de clientes e de sua imagem profissional. Em suma, o sistema contribui para uma melhor experiência dos alunos e personal trainers na academia, aumentando a satisfação e fidelização dos clientes. 
+Como contribuições do trabalho temos a possibilidade de redução de custos operacionais das academias, uma vez que o software automatiza vários processos, como criação de fichas de treino, agendamento de aulas e atualização de dados. Além disso, o software oferece uma experiência personalizada para cada cliente, levando em consideração suas necessidades e objetivos específicos. Isso pode aumentar a eficácia dos treinos, melhorando o resultado dos clientes e, consequentemente, a imagem da academia.
 
 
 ## 2. Participantes do processo
