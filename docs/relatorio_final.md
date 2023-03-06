@@ -5,7 +5,7 @@
 
 **Luana Fleury, luana.fleury4@gmail.com**
 
-**Rafael Ferraz Barra, email do aluno 3**
+**Rafael Ferraz Barra, rafafbarra@gmail.com
 
 **Samuel Lincoln de Oliveira Gomes, samuelincoln1@gmail.com**
 
