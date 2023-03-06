@@ -39,9 +39,11 @@ A introdução deve apresentar de dois ou quatro parágrafos de contextualizaç�
 
     1.1 Contextualização
 
-Na **contextualização**, o aluno deve dizer do que se trata o trabalho, em que área ou contexto se insere. 
-A **contextualização** deve ser desenvolvida de algo mais genérico para algo mais específico. 
-A citação de pesquisas quantitativas é bem aceita aqui (corretamente referenciadas).
+  Cientificamente é comprovado a importância de se exercitar diariamente para o corpo e a mente, mas algumas pessoas não tem tempo e força de vontade pra começar.  
+
+ É importante considerar também a dificuldade que algumas pessoas podem apresentar devido à distância presencial para marcar suas aulas, fazer suas fichas e contratar algum personal de sua escolha, sendo tarefas muito mais simples de se realizar online. 
+
+Por isso decidimos criar um software que tem a finalidade de facilitar a programação dos professores e alunos. Onde o cliente consegue pelo próprio celular realizar o cadastro, marcar aulas e montar a ficha, contribuindo para um melhor funcionamento do fluxo da academia.
 
     1.2 Problema
 
