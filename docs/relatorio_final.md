@@ -45,11 +45,11 @@ A citação de pesquisas quantitativas é bem aceita aqui (corretamente referenc
 
     1.2 Problema
 
-Muitas pessoas enfrentam dificuldades ao tentar se exercitar e encontrar um personal trainer atualmente. Uma das maiores barreiras é o custo de frequentar uma academia e contratar um personal trainer experiente, o que pode desanimar muitas pessoas. 
-Outro problema é conseguir manter a motivação para se exercitar regularmente, especialmente quando se treina sozinho. Muitas vezes, as pessoas podem se sentir desanimadas ou desmotivadas. 
- Com isso, as restrições de tempo e horários de trabalho também podem ser um obstáculo para muitas pessoas. Encontrar tempo para se exercitar regularmente pode ser difícil, especialmente quando o trabalho e outros compromissos ocupam a maior parte do dia.
-Outra dificuldade é a falta de conhecimento e confiança em relação ao treinamento de musculação. Muitas pessoas podem não ter experiência anterior na academia, não saber como usar corretamente os equipamentos de treinamento ou criar um plano de treinamento eficaz. Isso pode prejudicar os resultados e levar a lesões. 
-Portanto, encontrar um personal trainer experiente, confiável e que encaixe no horário pode ser um desafio para muitas pessoas. Alguns treinadores podem não estar disponíveis ou podem ser muito caros, o que pode tornar difícil encontrar alguém que se adapte às necessidades e objetivos de cada indivíduo.
+    Muitas pessoas enfrentam dificuldades ao tentar se exercitar e encontrar um personal trainer atualmente. Uma das maiores barreiras é o custo de frequentar uma academia e contratar um personal trainer experiente, o que pode desanimar muitas pessoas. 
+    Outro problema é conseguir manter a motivação para se exercitar regularmente, especialmente quando se treina sozinho. Muitas vezes, as pessoas podem se sentir desanimadas ou desmotivadas. 
+    Com isso, as restrições de tempo e horários de trabalho também podem ser um obstáculo para muitas pessoas. Encontrar tempo para se exercitar regularmente pode ser difícil, especialmente quando o trabalho e outros compromissos ocupam a maior parte do dia.
+    Outra dificuldade é a falta de conhecimento e confiança em relação ao treinamento de musculação. Muitas pessoas podem não ter experiência anterior na academia, não saber como usar corretamente os equipamentos de treinamento ou criar um plano de treinamento eficaz. Isso pode prejudicar os resultados e levar a lesões. 
+    Portanto, encontrar um personal trainer experiente, confiável e que encaixe no horário pode ser um desafio para muitas pessoas. Alguns treinadores podem não estar disponíveis ou podem ser muito caros, o que pode tornar difícil encontrar alguém que se adapte às necessidades e objetivos de cada indivíduo.
 
 
     1.3 Objetivo geral
