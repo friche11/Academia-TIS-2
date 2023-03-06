@@ -89,7 +89,11 @@ Além desses, temos o gerente de academia. Responsável pela administração da 
 
 ## 3.1. Análise da situação atual
 
-Apresente uma descrição textual de como os sistemas atuais resolvem o problema que se propoe a resolver.  Caso sua proposta seja inovadora e não existam processos claramente definidos, **apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente**, mesmo que não se utilize tecnologia computacional.
+Atualmente, sistemas de academia que unem alunos a personal trainers costumam funcionar de forma integrada com softwares de gestão da academia. Eles permitem que os alunos se cadastrem na academia e escolham um personal trainer para acompanhar seu treinamento. Por meio do software, os alunos podem agendar horários, consultar informações sobre seu plano de treinamento e acompanhar seu desempenho em treinos anteriores. Os personal trainers, por sua vez, utilizam o mesmo software para gerenciar a agenda de seus alunos, planejar os treinamentos, registrar informações sobre o desempenho dos alunos e manter um histórico de seus treinamentos. Com base nas informações registradas no software, os personal trainers podem ajustar o plano de treinamento de cada aluno e monitorar seu progresso ao longo do tempo.
+
+Em termos de processos não computacionais, as tarefas que os sistemas atuais implementam geralmente envolvem a interação entre os alunos e os personal trainers. Por exemplo, os alunos podem conversar com os personal trainers durante as sessões de treinamento para discutir suas metas, desafios e progresso. Os personal trainers, por sua vez, podem utilizar equipamentos e técnicas específicas para ajudar os alunos a alcançar seus objetivos.
+
+No entanto, a utilização de tecnologia computacional permite que essas interações sejam mais eficientes e eficazes. Por exemplo, ao utilizar um software, os personal trainers podem ter acesso a informações mais detalhadas sobre o desempenho de cada aluno, o que lhes permite ajustar o plano de treinamento de forma mais precisa. Da mesma forma, os alunos podem ter acesso a informações mais precisas sobre seu progresso e metas, o que pode motivá-los a continuar com seu treinamento.
 
 ## 3.2. Descrição Geral da proposta
 
