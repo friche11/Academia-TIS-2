@@ -60,13 +60,18 @@ Por isso decidimos criar um software que tem a finalidade de facilitar a program
 
     1.3 Objetivo geral
 
-O aluno deve escrever um pequeno parágrafo ou frase com o **objetivo geral** do trabalho. 
-O objetivo deve ser bem direto, específico e definido com verbos de ação (elaborar, propor, ava-liar, comparar etc.).
+Os objetivo geral deste trabalho é confeccionar um sistema a fim de facilitar a elaboração de treinos, montagem de fichas de academia e a distribuição dos alunos entre os professores disponíveis. Dessa forma os problemas identificados podem ser solucionados por meio do software que será desenvolvido neste trabalho. 
 
         1.3.1 Objetivos específicos
 
-Apresente também alguns (pelo menos 2) **objetivos específicos** dependendo de onde você vai querer 
-concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Os objetivos específicos são:
+- Desenvolver um site intuitivo e responsivo
+- Elaborar um sistema de cadastro de alunos
+- Elaborar um sistema de cadastro de professores
+- Desenvolver um sistema de login
+- Desenvolver um sistema para montagem de treinos
+- Desenvolver um sistema de criação de fichas de academia para cada aluno atribuído a um professor
+
 
     1.4 Justificativas
 
