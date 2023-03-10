@@ -72,8 +72,7 @@ Os objetivos específicos são:
 - Desenvolver um sistema para montagem de treinos
 - Desenvolver um sistema de criação de fichas de academia para cada aluno atribuído a um professor
 
-
-    1.4 Justificativas
+      1.4 Justificativa
 
 Muitas pessoas que ingressam na academia possuem pouca ou nenhuma experiência com treinamentos físicos.Tendo isso em vista, os alunos encontram dificuldade em criar rotinas de exercícios eficazes sem a orientação de um personal trainer. Entretanto, esse serviço possui altas taxas e nem sempre é possível encontrar um personal competente e que atenda à suas necessidades. Nesse sentido, o software ConectaGym busca oferecer uma alternativa acessível conectando os alunos a personal trainers qualificados a um preço razoável.
 
