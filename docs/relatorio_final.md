@@ -60,7 +60,7 @@ Por isso decidimos criar um software que tem a finalidade de facilitar a program
 
     1.3 Objetivo geral
 
-Os objetivo geral deste trabalho é confeccionar um sistema a fim de facilitar a elaboração de treinos, montagem de fichas de academia e a distribuição dos alunos entre os professores disponíveis. Dessa forma os problemas identificados podem ser solucionados por meio do software que será desenvolvido neste trabalho. 
+O objetivo geral deste trabalho é confeccionar um sistema a fim de facilitar a elaboração de treinos, montagem de fichas de academia e a distribuição dos alunos entre os professores disponíveis. Dessa forma os problemas identificados podem ser solucionados por meio do software que será desenvolvido neste trabalho. 
 
         1.3.1 Objetivos específicos
 
