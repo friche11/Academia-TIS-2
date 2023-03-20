@@ -95,11 +95,7 @@ Outro participante importante é o aluno. Ele deve fornecer informações sobre 
 
 ## 3.1. Análise da situação atual
 
-Atualmente, sistemas de academia que unem alunos a personal trainers costumam funcionar de forma integrada com softwares de gestão da academia. Eles permitem que os alunos se cadastrem na academia e escolham um personal trainer para acompanhar seu treinamento. Por meio do software, os alunos podem agendar horários, consultar informações sobre seu plano de treinamento e acompanhar seu desempenho em treinos anteriores. Os personal trainers, por sua vez, utilizam o mesmo software para gerenciar a agenda de seus alunos, planejar os treinamentos, registrar informações sobre o desempenho dos alunos e manter um histórico de seus treinamentos. Com base nas informações registradas no software, os personal trainers podem ajustar o plano de treinamento de cada aluno e monitorar seu progresso ao longo do tempo.
-
-Em termos de processos não computacionais, as tarefas que os sistemas atuais implementam geralmente envolvem a interação entre os alunos e os personal trainers. Por exemplo, os alunos podem conversar com os personal trainers durante as sessões de treinamento para discutir suas metas, desafios e progresso. Os personal trainers, por sua vez, podem utilizar equipamentos e técnicas específicas para ajudar os alunos a alcançar seus objetivos.
-
-No entanto, a utilização de tecnologia computacional permite que essas interações sejam mais eficientes e eficazes. Por exemplo, ao utilizar um software, os personal trainers podem ter acesso a informações mais detalhadas sobre o desempenho de cada aluno, o que lhes permite ajustar o plano de treinamento de forma mais precisa. Da mesma forma, os alunos podem ter acesso a informações mais precisas sobre seu progresso e metas, o que pode motivá-los a continuar com seu treinamento.
+A proposta é desenvolver um sistema capaz de conectar alunos a personal trainers de forma que os alunos consigam encontrar profissionais capazes de suprir suas necessidades de treinamento e os personal trainers consigam encontrar e encaixar clientes em sua agenda facilmente. Foram encontrados alguns aplicativos que têm quase a mesma funcionalidade, mas o diferencial do nosso sistema é que além de conectar alunos a profissionais da educação física o aluno poderá visualizar fichas de treinamento, agendar horários e cadastrar sua dieta, enquanto o personal poderá montar a ficha de treinamento para cada aluno, gerenciar sua agenda e acompanhar a evolução dos alunos.
 
 ## 3.2. Descrição Geral da proposta
 
