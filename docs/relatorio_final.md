@@ -99,7 +99,13 @@ A proposta é desenvolver um sistema capaz de conectar alunos a personal trainer
 
 ## 3.2. Descrição Geral da proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+Sistemas de academia que unem alunos a personal trainers costumam funcionar de forma integrada com softwares de gestão da academia e possuem processos bem definidos. O cliente conhece a academia e decide se matricular. Após passar por exames de aptidão física por um profissional da própria academia ele ganha sua primeira ficha de treinamento e todos seus dados são cadastrados no sistema. 
+
+Ao entrar no sistema pela sua conta o aluno tem acesso a personal trainers disponíveis que atuam na academia. Ele pode escolher o profissional de acordo com seus objetivos e marcar sessões de treinamento em dias e horários que estão de acordo com o horário disponível por determinado personal e de acordo com o horário de funcionamento da academia. Caso o usuário escolha um personal, ele poderá solicitar suas fichas de treinamento e assim realizar seu primeiro treino com o profissional escolhido. Por sua vez, o personal deverá montar as fichas e enviar ao cliente.
+
+Ao entrar no sistema pela sua conta o personal trainer pode encontrar alunos e convidá-los para usufruir de seus serviços. Pode ser oferecido ao aluno uma aula experimenta, que deverá ser marcada caso o aluno aceite a proposta. Se o aluno aceitar e gostar da aula experimental ele terá a opção de continuar com o personal pelo tempo que ele escolher.
+
+Em termos de processos não computacionais, os processos que os sistemas implementam geralmente envolvem a interação entre os alunos e os personal trainers. Por exemplo, os alunos podem conversar com os personal trainers durante as sessões de treinamento para discutir suas metas, desafios e progresso. Os personal trainers, por sua vez, podem utilizar equipamentos e técnicas específicas para ajudar os alunos a alcançar seus objetivos. No entanto, a utilização de tecnologia computacional permite que essas interações sejam mais eficientes e eficazes. Por exemplo, ao utilizar um software, os personal trainers podem ter acesso a informações mais detalhadas sobre o desempenho de cada aluno, o que lhes permite ajustar o plano de treinamento de forma mais precisa. Da mesma forma, os alunos podem ter acesso a informações mais precisas sobre seu progresso e metas, o que pode motivá-los a continuar com seu treinamento.
 
 ## 3.3. Modelagem dos Processos
 
