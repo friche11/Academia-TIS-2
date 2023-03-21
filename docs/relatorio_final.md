@@ -115,11 +115,12 @@ Processo em que o personal trainer disponibiliza seu horário e consegue marcar/
 <img width="680" alt="image" src="https://user-images.githubusercontent.com/103442333/226683531-653d01dd-5264-4874-aef7-bca9fce926e8.png">
 
 
-### 3.3.2 Processo 2 – NOME DO PROCESSO
+### 3.3.2 Processo 2 – Solicitação de ficha de treinamento
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
+Processo em que o aluno solicita uma ficha de treinamento ao seu personal.
 
-![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/call_process.png "Modelo BPMN do Processo 2.")
+![Solicitação de ficha de treinamento](https://user-images.githubusercontent.com/104036970/226728806-28ba94e8-0e42-45b5-9eec-0c7307bf9939.png)
+
 
 ### 3.3.3 Processo 3 – Solicitação de aula pelo aluno
 
