@@ -64,7 +64,7 @@ O objetivo geral deste trabalho é confeccionar um sistema a fim de facilitar a 
         1.3.1 Objetivos específicos
 
 Os objetivos específicos são:
-- Desenvolver um site intuitivo e responsivo
+- Desenvolver um site responsivo
 - Elaborar um sistema de cadastro de alunos
 - Elaborar um sistema de cadastro de personal trainers
 - Desenvolver um sistema de login
