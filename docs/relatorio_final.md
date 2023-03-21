@@ -121,6 +121,13 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/call_process.png "Modelo BPMN do Processo 2.")
 
+### 3.3.3 Processo 3 – Solicitação de aula pelo aluno
+
+Processo em que o aluno marca uma aula.
+
+<img width="677" alt="image" src="https://user-images.githubusercontent.com/103442333/226680834-bf68c385-fa97-41d4-9404-938f593c7690.png">
+
+
 ## 4. Projeto da Solução
 
 ### 4.1. Detalhamento das atividades
