@@ -125,7 +125,7 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 Processo em que o aluno marca uma aula.
 
-<img width="677" alt="image" src="https://user-images.githubusercontent.com/103442333/226680834-bf68c385-fa97-41d4-9404-938f593c7690.png">
+<img width="680" alt="image" src="https://user-images.githubusercontent.com/103442333/226682129-b6ec231c-5636-42a1-a613-0a08270853e2.png">
 
 
 ## 4. Projeto da Solução
