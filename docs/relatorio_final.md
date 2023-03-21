@@ -112,7 +112,7 @@ Em termos de processos não computacionais, os processos que os sistemas impleme
 
 Processo em que o personal trainer disponibiliza seu horário e consegue marcar/remarcar aula.
 
-<img width="506" alt="image" src="https://user-images.githubusercontent.com/103442333/226675399-90901558-56db-4bac-a361-941301ce6e7b.png">
+<img width="680" alt="image" src="https://user-images.githubusercontent.com/103442333/226683531-653d01dd-5264-4874-aef7-bca9fce926e8.png">
 
 
 ### 3.3.2 Processo 2 – NOME DO PROCESSO
