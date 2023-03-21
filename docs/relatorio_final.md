@@ -35,7 +35,6 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 ## 1. Introdução
 
-A introdução deve apresentar de dois ou quatro parágrafos de contextualização do trabalho. 
 
     1.1 Contextualização
 
@@ -43,7 +42,7 @@ A introdução deve apresentar de dois ou quatro parágrafos de contextualizaç�
 
  É importante considerar também a dificuldade que algumas pessoas podem apresentar devido à distância presencial para marcar suas aulas, fazer suas fichas e contratar algum personal de sua escolha, sendo tarefas muito mais simples de se realizar online. 
 
-Por isso decidimos criar um software que tem a finalidade de facilitar a programação dos professores e alunos. Onde o cliente consegue pelo próprio celular realizar o cadastro, marcar aulas e montar a ficha, contribuindo para um melhor funcionamento do fluxo da academia.
+Por isso decidimos criar um software que tem a finalidade de facilitar a programação dos personal trainers e alunos. Onde o aluno consegue pelo próprio celular realizar o cadastro, marcar aulas e montar a ficha, contribuindo para um melhor funcionamento do fluxo da academia.
 
     1.2 Problema
 
@@ -55,28 +54,28 @@ Por isso decidimos criar um software que tem a finalidade de facilitar a program
     
    Outra dificuldade é a falta de conhecimento e confiança em relação ao treinamento de musculação. Muitas pessoas podem não ter experiência anterior na academia, não saber como usar corretamente os equipamentos de treinamento ou criar um plano de treinamento eficaz. Isso pode prejudicar os resultados e levar a lesões. 
     
-   Portanto, encontrar um personal trainer experiente, confiável e que encaixe no horário pode ser um desafio para muitas pessoas. Alguns treinadores podem não estar disponíveis ou podem ser muito caros, o que pode tornar difícil encontrar alguém que se adapte às necessidades e objetivos de cada indivíduo.
+   Portanto, encontrar um personal trainer experiente, confiável e que encaixe no horário pode ser um desafio para muitas pessoas. Alguns personal trainers podem não estar disponíveis ou podem ser muito caros, o que pode tornar difícil encontrar alguém que se adapte às necessidades e objetivos de cada indivíduo.
 
 
     1.3 Objetivo geral
 
-O objetivo geral deste trabalho é confeccionar um sistema a fim de facilitar a elaboração de treinos, montagem de fichas de academia e a distribuição dos alunos entre os professores disponíveis. Dessa forma os problemas identificados podem ser solucionados por meio do software que será desenvolvido neste trabalho. 
+O objetivo geral deste trabalho é confeccionar um sistema a fim de facilitar a elaboração de treinos, montagem de fichas de academia e a distribuição dos alunos entre os personal trainers disponíveis. Dessa forma os problemas identificados podem ser solucionados por meio do software que será desenvolvido neste trabalho. 
 
         1.3.1 Objetivos específicos
 
 Os objetivos específicos são:
 - Desenvolver um site intuitivo e responsivo
 - Elaborar um sistema de cadastro de alunos
-- Elaborar um sistema de cadastro de professores
+- Elaborar um sistema de cadastro de personal trainers
 - Desenvolver um sistema de login
 - Desenvolver um sistema para montagem de treinos
-- Desenvolver um sistema de criação de fichas de academia para cada aluno atribuído a um professor
+- Desenvolver um sistema de criação de fichas de academia para cada aluno atribuído a um personal trainer
 
       1.4 Justificativa
 
 Muitas pessoas que ingressam na academia possuem pouca ou nenhuma experiência com treinamentos físicos.Tendo isso em vista, os alunos encontram dificuldade em criar rotinas de exercícios eficazes sem a orientação de um personal trainer. Entretanto, esse serviço possui altas taxas e nem sempre é possível encontrar um personal competente e que atenda à suas necessidades. Nesse sentido, o software ConectaGym busca oferecer uma alternativa acessível conectando os alunos a personal trainers qualificados a um preço razoável.
 
-Ademais, os personal trainers frequentemente têm dificuldade em encontrar novos alunos e estabelecer um negócio confiável. Nosso software resolve esse problema, oferecendo maior visibilidade e auxiliando na construção de uma base de alunos e de sua imagem profissional. Em suma, o sistema contribui para uma melhor experiência dos alunos e personal trainers na academia, aumentando a satisfação e fidelização dos clientes. 
+Ademais, os personal trainers frequentemente têm dificuldade em encontrar novos alunos e estabelecer um negócio confiável. Nosso software resolve esse problema, oferecendo maior visibilidade e auxiliando na construção de uma base de alunos e de sua imagem profissional. Em suma, o sistema contribui para uma melhor experiência dos alunos e personal trainers na academia, aumentando a satisfação e fidelização dos alunos. 
 
 Como contribuições do trabalho temos a possibilidade de redução de custos operacionais das academias, uma vez que o software automatiza vários processos, como criação de fichas de treino, agendamento de aulas e atualização de dados. Além disso, o software oferece uma experiência personalizada para cada aluno, levando em consideração suas necessidades e objetivos específicos. Isso pode aumentar a eficácia dos treinos, melhorando o resultado dos alunos e, consequentemente, a imagem da academia.
 
@@ -99,9 +98,9 @@ A proposta é desenvolver um sistema capaz de conectar alunos a personal trainer
 
 ## 3.2. Descrição Geral da proposta
 
-Sistemas de academia que unem alunos a personal trainers costumam funcionar de forma integrada com softwares de gestão da academia e possuem processos bem definidos. O cliente conhece a academia e decide se matricular. Após passar por exames de aptidão física por um profissional da própria academia ele ganha sua primeira ficha de treinamento e todos seus dados são cadastrados no sistema. 
+Sistemas de academia que unem alunos a personal trainers costumam funcionar de forma integrada com softwares de gestão da academia e possuem processos bem definidos. O aluno conhece a academia e decide se matricular. Após passar por exames de aptidão física por um profissional da própria academia ele ganha sua primeira ficha de treinamento e todos seus dados são cadastrados no sistema. 
 
-Ao entrar no sistema pela sua conta o aluno tem acesso a personal trainers disponíveis que atuam na academia. Ele pode escolher o profissional de acordo com seus objetivos e marcar sessões de treinamento em dias e horários que estão de acordo com o horário disponível por determinado personal e de acordo com o horário de funcionamento da academia. Caso o usuário escolha um personal, ele poderá solicitar suas fichas de treinamento e assim realizar seu primeiro treino com o profissional escolhido. Por sua vez, o personal deverá montar as fichas e enviar ao cliente.
+Ao entrar no sistema pela sua conta o aluno tem acesso a personal trainers disponíveis que atuam na academia. Ele pode escolher o profissional de acordo com seus objetivos e marcar sessões de treinamento em dias e horários que estão de acordo com o horário disponível por determinado personal e de acordo com o horário de funcionamento da academia. Caso o usuário escolha um personal, ele poderá solicitar suas fichas de treinamento e assim realizar seu primeiro treino com o profissional escolhido. Por sua vez, o personal deverá montar as fichas e enviar ao aluno.
 
 Ao entrar no sistema pela sua conta o personal trainer pode encontrar alunos e convidá-los para usufruir de seus serviços. Pode ser oferecido ao aluno uma aula experimenta, que deverá ser marcada caso o aluno aceite a proposta. Se o aluno aceitar e gostar da aula experimental ele terá a opção de continuar com o personal pelo tempo que ele escolher.
 
