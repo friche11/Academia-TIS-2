@@ -108,11 +108,11 @@ Em termos de processos não computacionais, os processos que os sistemas impleme
 
 ## 3.3. Modelagem dos Processos
 
-### 3.3.1 Processo 1 – NOME DO PROCESSO
+### 3.3.1 Processo 1 – Gestão de horário do personal trainer
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN.
+Processo em que o personal trainer disponibiliza seu horário e consegue marcar/remarcar aula.
 
-![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/process.png "Modelo BPMN do Processo 1.")
+<img width="506" alt="image" src="https://user-images.githubusercontent.com/103442333/226675399-90901558-56db-4bac-a361-941301ce6e7b.png">
 
 
 ### 3.3.2 Processo 2 – NOME DO PROCESSO
