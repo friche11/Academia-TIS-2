@@ -132,7 +132,7 @@ Processo em que o aluno marca uma aula.
 
 O personal monta a ficha de treinamento solicitada pelo seu aluno.
 
-![Montagem de ficha de treinamento]("../docs/imagens/Montagem de ficha para o aluno.png")
+![Montagem de ficha de treinamento](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/blob/f0638de5d92adc08dafaf9f0bc2e70d8b0f25738/docs/imagens/Montagem%20de%20ficha%20para%20o%20aluno.png)
 
 
 ## 4. Projeto da Solução
