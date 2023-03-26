@@ -128,6 +128,12 @@ Processo em que o aluno marca uma aula.
 
 <img width="680" alt="image" src="https://user-images.githubusercontent.com/103442333/226682129-b6ec231c-5636-42a1-a613-0a08270853e2.png">
 
+### 3.3.4 Processo 4 – Montagem de ficha de treinamento
+
+O personal monta a ficha de treinamento solicitada pelo seu aluno.
+
+![Montagem de ficha de treinamento](../docs/imagens/Montagem de ficha para o aluno.png)
+
 
 ## 4. Projeto da Solução
 
