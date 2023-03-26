@@ -140,7 +140,7 @@ Personal cancela plano com algum aluno
 
 ![Cancelamento do plano com aluno](https://user-images.githubusercontent.com/104329840/227792180-c01d0702-0903-499a-b36b-82d01fb16640.png)
 
-### 3.3.7 Processo 7 – Pagemento do personal trainer
+### 3.3.7 Processo 7 – Pagamento do personal trainer
 
 Aluno paga o personal de acordo com seu plano.
 
