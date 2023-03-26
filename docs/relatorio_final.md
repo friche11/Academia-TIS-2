@@ -150,7 +150,7 @@ Aluno paga o personal de acordo com seu plano.
 
  Aluno avalia personal depois de ter aulas com ele.
 
-![Avaliação do personal trainer](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/blob/b21c06c70c9d2d0625d6aa12a2b4fd9eebfa8d5a/docs/imagens/Avalia%C3%A7%C3%A3o%20do%20personal.png)
+![Avaliação do personal trainer](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/blob/7e04469509954348ad4500dc030457acae1f9126/docs/imagens/absence-request.png)
 
 
 
