@@ -134,6 +134,12 @@ O personal monta a ficha de treinamento solicitada pelo seu aluno.
 
 ![Montagem de ficha de treinamento](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/blob/f0638de5d92adc08dafaf9f0bc2e70d8b0f25738/docs/imagens/Montagem%20de%20ficha%20para%20o%20aluno.png)
 
+### 3.3.6 Processo 6 – Cancelamento do plano com aluno
+
+Personal cancela plano com algum aluno
+
+![Cancelamento do plano com aluno](https://user-images.githubusercontent.com/104329840/227794516-4fc1f1b2-81e5-44a3-b694-01569daaf2b9.png)
+
 ### 3.3.7 Processo 7 – Pagemento do personal trainer
 
 Aluno paga o personal de acordo com seu plano.
