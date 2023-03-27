@@ -134,6 +134,12 @@ O personal monta a ficha de treinamento solicitada pelo seu aluno.
 
 ![Montagem de ficha de treinamento](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/blob/b93f89b54ee8c4ca05b123c8e3a5a48929531e59/docs/imagens/Montagem%20de%20ficha%20para%20o%20aluno.png)
 
+### 3.3.5 Processo 5 – Cancelamento de treino pelo aluno
+
+O aluno cancela uma aula agendada com o personal.
+
+![Cancelamento do treino pelo aluno](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/blob/master/docs/imagens/Cancelar%20treino.png)
+
 ### 3.3.6 Processo 6 – Cancelamento do plano com aluno
 
 Personal cancela plano com algum aluno
