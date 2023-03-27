@@ -132,7 +132,7 @@ Processo em que o aluno marca uma aula.
 
 O personal monta a ficha de treinamento solicitada pelo seu aluno.
 
-![Montagem de ficha de treinamento](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/blob/23c52b88816ad77be74a74db5582ff6ae98c7276/docs/imagens/montagem%20de%20ficha.png)
+![Montagem de ficha de treinamento](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/blob/b2b27bf86c7a4c6f9eb884e98c70631b7f1174ba/docs/imagens/montagem%20de%20ficha.png)
 
 ### 3.3.5 Processo 5 – Cancelamento de treino pelo aluno
 
