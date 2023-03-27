@@ -146,11 +146,11 @@ Personal cancela plano com algum aluno
 
 ![Cancelamento do plano com aluno](https://user-images.githubusercontent.com/104329840/227794516-4fc1f1b2-81e5-44a3-b694-01569daaf2b9.png)
 
-### 3.3.7 Processo 7 – Pagemento do personal trainer
+### 3.3.7 Processo 7 – Pagamento do personal trainer
 
 Aluno paga o personal de acordo com seu plano.
 
-![Pagamento do personal trainer](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/blob/8a953a804da5b654c72b0d48e6abc09d45bc1533/docs/imagens/Efetuar%20pagamento.png)
+![Pagamento do personal trainer](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/blob/a575164ca74ecf2e02f5fc99f821893029ebaf32/docs/imagens/pagamento.png)
 
 ### 3.3.8 Processo 8 – Avalição do personal trainer
 
