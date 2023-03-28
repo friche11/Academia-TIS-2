@@ -119,7 +119,8 @@ Processo em que o personal trainer disponibiliza seu horário e consegue marcar/
 
 Processo em que o aluno solicita uma ficha de treinamento ao seu personal.
 
-![Solicitação de ficha de treinamento](https://user-images.githubusercontent.com/104036970/226728806-28ba94e8-0e42-45b5-9eec-0c7307bf9939.png)
+![Solicitação de ficha de treinamento](https://user-images.githubusercontent.com/104036970/228295117-f5693e7d-ea2f-41c6-8489-75481f02759b.png)
+
 
 
 ### 3.3.3 Processo 3 – Solicitação de aula pelo aluno
