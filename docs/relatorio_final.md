@@ -110,9 +110,9 @@ Em termos de processos não computacionais, os processos que os sistemas impleme
 
 ### 3.3.1 Processo 1 – Gestão de horário do personal trainer
 
-Processo em que o personal trainer disponibiliza seu horário e consegue marcar/remarcar aula.
+Processo em que o aluno solicita um horário de aula.
 
-<img width="680" alt="image" src="https://user-images.githubusercontent.com/103442333/226683531-653d01dd-5264-4874-aef7-bca9fce926e8.png">
+<img width="680" alt="image" src="https://user-images.githubusercontent.com/103442333/229386349-21860509-7e5f-4817-9834-9bbb9f75f63a.png">
 
 
 ### 3.3.2 Processo 2 – Solicitação de ficha de treinamento
