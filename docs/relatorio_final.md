@@ -127,7 +127,7 @@ Processo em que o aluno solicita uma ficha de treinamento ao seu personal.
 
 Processo em que o aluno marca uma aula.
 
-<img width="680" alt="image" src="https://user-images.githubusercontent.com/103442333/226682129-b6ec231c-5636-42a1-a613-0a08270853e2.png">
+<img width="680" alt="image" src="https://user-images.githubusercontent.com/103442333/229386530-3e417446-8cc2-4dc3-ad0d-7703e5c1f2f7.png">
 
 ### 3.3.4 Processo 4 – Montagem de ficha de treinamento
 
