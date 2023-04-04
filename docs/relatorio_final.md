@@ -119,7 +119,8 @@ Processo em que o aluno solicita um horário de aula.
 
 Processo em que o aluno solicita uma ficha de treinamento ao seu personal.
 
-![Solicitação de ficha de treinamento](https://user-images.githubusercontent.com/104036970/229569885-daf7e284-0682-47ab-a379-480ebe5f7ec6.png)
+![Solicitação de ficha de treinamento](https://user-images.githubusercontent.com/104036970/229921314-a17adece-fd0c-4c89-aa0e-fefcd4646c74.png)
+
 
 
 
