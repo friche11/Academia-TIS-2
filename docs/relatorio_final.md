@@ -185,20 +185,27 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
 |    |    |     |
 
-#### Processo 2 – NOME DO PROCESSO
+#### Processo 2 – Solicitação de ficha de treinamento
 
-**Nome da atividade 1**
+**Solicitar ficha**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
+| Solicitar ficha  | Seleção única | Estar logado como aluno |  |
 |    |    |     |
 
-**Nome da atividade 2**
+**Selecionar personal**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
+| Confirmar solicitação de ficha | Seleção única | Deve possuir aula marcada com algum personal |  |
+|    |    |     |
+
+**Notificar solicitação de ficha de treinamento**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Notificação de solicitação de ficha | Área de texto | Somente após a confirmação de solicitação de ficha |  |
 |    |    |     |
 
 ### 4.2. Tecnologias
