@@ -112,7 +112,7 @@ Em termos de processos não computacionais, os processos que os sistemas impleme
 
 Processo em que o aluno solicita um horário de aula.
 
-<img width="680" alt="image" src="https://user-images.githubusercontent.com/103442333/229386349-21860509-7e5f-4817-9834-9bbb9f75f63a.png">
+<img width="680" alt="image" src="https://user-images.githubusercontent.com/103442333/230775274-c9fe52a8-02d8-446c-aefc-103ccb8ff5a5.png">
 
 
 ### 3.3.2 Processo 2 – Solicitação de ficha de treinamento
