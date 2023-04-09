@@ -84,7 +84,7 @@ Como contribuições do trabalho temos a possibilidade de redução de custos op
 
 O desenvolvimento de um software para academia que conecta alunos inexperientes e personal trainers envolve diversos participantes que são fundamentais para o funcionamento dos processos. A seguir, são descritos os diferentes perfis dos participantes do processo. 
 
-Em primeiro lugar, temos o próprio personal trainer, profissionais especializados em treinamento físico e seu objetivo principal no uso do software é oferecer orientações personalizadas e suporte aos alunos inexperientes. É o responsável por criar fichas de treino para seus alunos, atualizar as fichas e marcar aulas. Seu perfil pode variar em idade, gênero e nível de experiência.  
+Em primeiro lugar, temos o próprio personal trainer, profissionais especializados em treinamento físico e seu objetivo principal no uso do software é oferecer orientações personalizadas e suporte aos alunos inexperientes. É o responsável por criar fichas de treino para seus alunos e atualizar as fichas. Seu perfil pode variar em idade, gênero e nível de experiência.  
 
 Outro participante importante é o aluno. Ele deve fornecer informações sobre sua condição física atual, como idade, peso, altura, histórico de lesões e condições médicas, para que o personal trainer possa adaptar os treinos de acordo com as necessidades individuais de cada um. Seu objetivo no uso do software é ter acesso a um programa de treinamento personalizado e receber orientações do personal trainer para alcançar seus objetivos. O aluno é responsável por registrar seu progresso no treino, comunicando ao personal sobre qualquer problema e também pode marcar aulas. Seu perfil pode variar em idade, gênero e histórico de saúde. 
 
