@@ -108,11 +108,11 @@ Em termos de processos não computacionais, os processos que os sistemas impleme
 
 ## 3.3. Modelagem dos Processos
 
-### 3.3.1 Processo 1 – Gestão de horário do personal trainer
+### 3.3.1 Processo 1 – Solicitação de aula
 
 Processo em que o aluno solicita um horário de aula.
 
-<img width="680" alt="image" src="https://user-images.githubusercontent.com/103442333/230775274-c9fe52a8-02d8-446c-aefc-103ccb8ff5a5.png">
+<img width="680" alt="image" src="https://user-images.githubusercontent.com/103442333/230775587-8ebb297a-5e25-4bd9-a6e6-8dd07de4daf5.png">
 
 
 ### 3.3.2 Processo 2 – Solicitação de ficha de treinamento
