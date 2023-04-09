@@ -159,23 +159,33 @@ Aluno paga o personal de acordo com seu plano.
 
 Descrever aqui cada uma das propriedades das atividades de cada um dos processos. Devem estar relacionadas com o modelo de processo apresentado anteriormente.
 
-#### Processo 1 – NOME DO PROCESSO
+#### Processo 1 – Solicitação de aula
 
-**Nome da atividade 1**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-| ***Exemplo:***  |    |     |
-| login | Caixa de Texto | formato de e-mail |  |
-| senha | Caixa de Texto | mínimo de 8 caracteres |   |
-
-**Nome da atividade 2**
+**Consultar horário e solicitar aula**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
+| Datas disponíveis | Data | Estar logado como aluno |  |
+| Horários disponíveis | Área de texto | Estar logado como aluno |  |
+
+**Confirmar aula**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Confirmar aula | Seleção única | Estar logado como personal |  |
+
+**Cancelar horário**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Cancelar aula | Seleção única | Estar logado como personal |  |  |
 |    |    |     |
+
+**Notificar cancelamento/confirmação de aula**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Notificação | Caixa de texto | Somente após confirmação ou cancelamento da aula |  |
 
 #### Processo 2 – Solicitação de ficha de treinamento
 
