@@ -217,28 +217,27 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Escolher o aluno que deseja cancelar  | Seleção única | Estar logado como personal, ter um aluno com plano vinculado à você |  |
-|    |    |     |
+
 
 **Adicionar observação**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Adicionar observação | Área de texto |  |  |
-|    |    |     |
 
-**Já houve pagamento**
+
+**Escolher forma de cancelamento **
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Houve ou não pagamentos | Seleção única |  |  |
-|    |    |     |
+| Escolher forma de cancelamento | Seleção única |  |  |
 
 **Escolher a forma de pagamento**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Forma de pagamento | Seleção única |  |  |
-|    |    |     |
+
 
 ### 4.2. Tecnologias
 
