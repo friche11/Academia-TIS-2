@@ -137,7 +137,7 @@ O aluno cancela uma aula agendada com o personal.
 
 Personal cancela plano com algum aluno
 
-![Cancelamento do plano com aluno](https://user-images.githubusercontent.com/104329840/229385059-c5150fd8-d322-446b-95f8-f82222d08039.png)
+![Cancelamento do plano com aluno](https://user-images.githubusercontent.com/104329840/230903140-513d9656-edc4-4fbd-aa16-714e92afb300.png)
 
 ### 3.3.7 Processo 7 – Pagamento do personal trainer
 
