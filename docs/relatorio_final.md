@@ -237,7 +237,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Pagamento | Seleção única |  |  |
+| Forma de pagamento | Seleção única |  |  |
 |    |    |     |
 
 ### 4.2. Tecnologias
