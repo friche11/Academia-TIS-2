@@ -193,22 +193,26 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Solicitar ficha  | Seleção única | Estar logado como aluno |  |
-|    |    |     |
+| Solicitar ficha  | Seleção única | Estar logado como aluno |   |
 
 **Selecionar personal**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Confirmar solicitação de ficha | Seleção única | Deve possuir aula marcada com algum personal |  |
-|    |    |     |
+| Nome do personal | Seleção única | Aula marcada  |    |
+| Data da aula | Seleção única | Aula marcada  |    |
+| Horário da aula | Seleção única | Aula marcada  |    |
+| Grupo muscular  | Múltipla escolha  |  Aula marcada  |    |
+| Confirmar solicitação de ficha | Seleção única | Aula marcada |  |
 
 **Notificar solicitação de ficha de treinamento**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Notificação de solicitação de ficha | Área de texto | Somente após a confirmação de solicitação de ficha |  |
-|    |    |     |
+| Nome do aluno   | Seleção única  |  Somente após a confirmação de solicitação de ficha   |    |
+| Grupo muscular  | Seleção única  |  Somente após a confirmação de solicitação de ficha   |    |
+| Criar ficha  | Seleção única  |  Somente após a confirmação de solicitação de ficha   |    |
+
 
 #### Processo 6 – Cancelamento do plano com aluno
 
