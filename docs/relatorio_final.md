@@ -226,11 +226,11 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Adicionar observação | Área de texto |  |  |
 
 
-**Escolher forma de cancelamento **
+**Escolher forma de cancelamento**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Escolher forma de cancelamento | Seleção única |  |  |
+| Forma de cancelamento | Seleção única |  |  |
 
 **Escolher a forma de pagamento**
 
