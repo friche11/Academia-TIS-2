@@ -199,19 +199,9 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome do personal | Seleção única | Aula marcada  |    |
-| Data da aula | Seleção única | Aula marcada  |    |
-| Horário da aula | Seleção única | Aula marcada  |    |
 | Grupo muscular  | Múltipla escolha  |  Aula marcada  |    |
 | Confirmar solicitação de ficha | Seleção única | Aula marcada |  |
 
-**Notificar solicitação de ficha de treinamento**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Nome do aluno   | Seleção única  |  Somente após a confirmação de solicitação de ficha   |    |
-| Grupo muscular  | Seleção única  |  Somente após a confirmação de solicitação de ficha   |    |
-| Criar ficha  | Seleção única  |  Somente após a confirmação de solicitação de ficha   |    |
 
 #### Processo 5 – Cancelamento de treino pelo aluno
 
