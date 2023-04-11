@@ -213,6 +213,33 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Grupo muscular  | Seleção única  |  Somente após a confirmação de solicitação de ficha   |    |
 | Criar ficha  | Seleção única  |  Somente após a confirmação de solicitação de ficha   |    |
 
+#### Processo 5 – Cancelamento de treino pelo aluno
+
+**Selecionar aula agendada**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Selecionar aula | Seleção única | Estar logado como aluno, possuir aula agendada |   |
+
+**Solicitar cancelamento**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Confirmar cancelamento | Seleção única | ter selecionado uma aula |   |
+
+**Notificar personal do cancelamento**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Notificação | Caixa de texto | Somente após cancelamento da aula |  |
+
+
+**Notificar status do estorno**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Notificação | Caixa de texto | Somente após cancelamento da aula realizado e profissional notificado |  |
+
 
 #### Processo 6 – Cancelamento do plano com aluno
 
