@@ -216,11 +216,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | --- | --- | --- | --- |
 | Montar ficha  | Seleção única |   |  Estar logado na conta de personal   |
 
-**Notificar o aluno após a confirmação**
 
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Notificar o aluno | Seleção única |  Estar logado com o aluno |    |
 
 
 
@@ -237,19 +233,6 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Confirmar cancelamento | Seleção única | ter selecionado uma aula |   |
-
-**Notificar personal do cancelamento**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Notificação | Caixa de texto | Somente após cancelamento da aula |  |
-
-
-**Notificar status do estorno**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Notificação | Caixa de texto | Somente após cancelamento da aula realizado e profissional notificado |  |
 
 
 #### Processo 6 – Cancelamento do plano com aluno
@@ -286,28 +269,21 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Selecionar personal | Estar logado na conta  |   |  |
+| Selecionar personal | Seleção única  |   |Cliente logado na conta   |
 
 
 **Definir pontuação**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Definir pontuação |Seleção única |  |  |
+| Definir pontuação |Seleção única |  | Cliente logado na conta  |
 
 
 **Adicionar observação**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-|Adicionar observação | Área de texto |  |  |
-
-**Enviar o feedback para a academia**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Enviar feedback |  |  |  |
-
+|Adicionar observação | Área de texto |  |Cliente logado na conta  |
 
 
 ### 4.2. Tecnologias
