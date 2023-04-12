@@ -280,6 +280,35 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | --- | --- | --- | --- |
 | Forma de pagamento | Seleção única |  |  |
 
+#### Processo 7– Avaliação do personal  trainer
+
+**Avaliar o personal**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Selecionar personal | Seleção única | Estar logado na conta  |  |
+
+
+**Definir pontuação**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Definir pontuação |Seleção única |  |Estar logado na conta   |
+
+
+**Adicionar observação**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+|Adicionar observação | Área de texto |  | Estar logado na conta  |
+
+**Enviar o feedback para a academia**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Enviar feedback |  |  |  |
+
+
 
 ### 4.2. Tecnologias
 
