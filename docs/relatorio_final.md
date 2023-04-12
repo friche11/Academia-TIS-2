@@ -208,13 +208,13 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Solicitação de ficha  | Seleção única |  |  Estar logado na conta de personal |
+| Solicitação de ficha  | Seleção única | Estar logado na conta de personal |  |
 
 **Montar ficha de treino**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Montar ficha  | Seleção única |   |  Estar logado na conta de personal   |
+| Montar ficha  | Seleção única | Estar logado na conta de personal |   |
 
 
 
@@ -269,21 +269,21 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Selecionar personal | Seleção única  |   |Cliente logado na conta   |
+| Selecionar personal | Seleção única  |  Cliente logado na conta  |  |
 
 
 **Definir pontuação**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Definir pontuação |Seleção única |  | Cliente logado na conta  |
+| Definir pontuação |Seleção única | Cliente logado na conta  |  |
 
 
 **Adicionar observação**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-|Adicionar observação | Área de texto |  |Cliente logado na conta  |
+|Adicionar observação | Área de texto |  Cliente logado na conta |  |
 
 
 ### 4.2. Tecnologias
