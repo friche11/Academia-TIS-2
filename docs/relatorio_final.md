@@ -286,21 +286,21 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Selecionar personal | Seleção única | Estar logado na conta  |  |
+| Selecionar personal | Estar logado na conta  |   |  |
 
 
 **Definir pontuação**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Definir pontuação |Seleção única |  |Estar logado na conta   |
+| Definir pontuação |Seleção única |  |  |
 
 
 **Adicionar observação**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-|Adicionar observação | Área de texto |  | Estar logado na conta  |
+|Adicionar observação | Área de texto |  |  |
 
 **Enviar o feedback para a academia**
 
