@@ -208,13 +208,13 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Solicitação de ficha  | Seleção única |  |   |
+| Solicitação de ficha  | Seleção única |  |  Estar logado na conta de personal |
 
 **Montar ficha de treino**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Montar ficha  | Seleção única |   |    |
+| Montar ficha  | Seleção única |   |  Estar logado na conta de personal   |
 
 **Notificar o aluno após a confirmação**
 
