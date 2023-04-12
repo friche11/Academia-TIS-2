@@ -202,6 +202,27 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Grupo muscular  | Múltipla escolha  |  Aula marcada  |    |
 | Confirmar solicitação de ficha | Seleção única | Aula marcada |  |
 
+#### Processo 4– Montagem de ficha de treinamento
+
+**Abrir solicitação de ficha do aluno**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Solicitação de ficha  | Seleção única |  |   |
+
+**Montar ficha de treino**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Montar ficha  | Seleção única |   |    |
+
+**Notificar o aluno após a confirmação**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Notificar o aluno | Seleção única |  Estar logado com o aluno |    |
+
+
 
 #### Processo 5 – Cancelamento de treino pelo aluno
 
