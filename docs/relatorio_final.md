@@ -288,7 +288,9 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 ### 4.2. Tecnologias
 
-Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas. Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+Ambiente de desenvolvimento: Visual Studio Code.
+Tecnologias: HTML, CSS, JavaScript, Node.js, MySQL.
+Bibliotecas e frameworks do Node.js: Express.js, nodemon, sequelize, mysql2, handlebars, express-session, connect-flash, bcryptjs, passportjs.
 
 ## 5. Modelo de dados
 
