@@ -172,12 +172,18 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
+| Data | Data | Estar logado como personal |  |
+| Horário | Área de texto | Estar logado como personal |  |
+| Aluno | Área de texto | Estar logado como personal |  |
 | Confirmar aula | Seleção única | Estar logado como personal |  |
 
 **Cancelar horário**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
+| Data | Data | Estar logado como personal |  |
+| Horário | Data | Estar logado como personal |  |
+| Aluno | Área de texto | Estar logado como personal |  |
 | Cancelar aula | Seleção única | Estar logado como personal |  |  |
 |    |    |     |
 
@@ -186,6 +192,8 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Notificação | Caixa de texto | Somente após confirmação ou cancelamento da aula |  |
+| Data | Data | Somente após confirmação ou cancelamento da aula |  |
+| Horário | Área de texto | Somente após confirmação ou cancelamento da aula |  |
 
 #### Processo 2 – Solicitação de ficha de treinamento
 
