@@ -273,6 +273,12 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | --- | --- | --- | --- |
 | Escolher forma de pagamento | Seleção Única | Cliente logado  |  |
 
+**Efetuar pagamento**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Confirmar pagamento  | Seleção Única | Cliente logado  |  |
+
 #### Processo 7– Avaliação do personal  trainer
 
 **Avaliar o personal**
