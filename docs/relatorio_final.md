@@ -137,7 +137,7 @@ O aluno cancela uma aula agendada com o personal.
 
 Personal cancela plano com algum aluno
 
-![Cancelamento do plano com aluno](https://user-images.githubusercontent.com/104329840/230903140-513d9656-edc4-4fbd-aa16-714e92afb300.png)
+![Cancelamento do plano com aluno](https://user-images.githubusercontent.com/104329840/232488949-d3783378-cccf-4b11-a34b-0273d995bb7e.png)
 
 ### 3.3.7 Processo 6 – Pagamento do personal trainer
 
@@ -245,11 +245,11 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 #### Processo 5 – Cancelamento do plano com aluno
 
-**Escolher o aluno para cancelar o plano**
+**Escolher a aula que deseja cancelar **
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Escolher o aluno que deseja cancelar  | Seleção única | Estar logado como personal, ter um aluno com plano vinculado à você |  |
+| Aula  | Seleção única | Estar logado como personal, ter um aluno com plano vinculado à você |  |
 
 #### Processo 6 – **Pagamento do personal trainer**
 
