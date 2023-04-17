@@ -251,27 +251,29 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | --- | --- | --- | --- |
 | Escolher o aluno que deseja cancelar  | Seleção única | Estar logado como personal, ter um aluno com plano vinculado à você |  |
 
-
-**Adicionar observação**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Adicionar observação | Área de texto |  |  |
+#### Processo 6 – **Pagamento do personal trainer**
 
 
-**Escolher forma de cancelamento**
+**Selecionar aula**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Forma de cancelamento | Seleção única |  |  |
+|Escolher aula |Seleção Única | Cliente logado|   |
 
-**Escolher a forma de pagamento**
+
+**Escolher plano**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Forma de pagamento | Seleção única |  |  |
+| Escolher plano | Seleção Única | Cliente logado  |  |
 
-#### Processo 6– Avaliação do personal  trainer
+**Selecionar a forma de pagamento**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Escolher forma de pagamento | Seleção Única | Cliente logado  |  |
+
+#### Processo 7– Avaliação do personal  trainer
 
 **Avaliar o personal**
 
