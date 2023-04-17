@@ -249,7 +249,14 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Aula  | Seleção única | Estar logado como personal, ter um aluno com plano vinculado à você |  |
+| Nome do Aluno  | Seleção única | Estar logado como personal, ter um aluno vinculado à você |  |
+| Data da Aula  | Seleção única | Estar logado como personal, ter uma aula com o aluno vinculado à você |  |
+
+**Adicionar observação **
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Observação | Área de texto |  |  |
 
 #### Processo 6 – **Pagamento do personal trainer**
 
