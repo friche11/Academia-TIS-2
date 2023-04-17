@@ -304,7 +304,8 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 Apresente o modelo de dados por meio de um modelo relacional ou Diagrama de Entidade-Relacionamento (DER) que contemple todos conceitos e atributos apresentados item anterior. 
 
-![Diagrama de Entidade Relacionamento de Exemplo](imagens/er_diagram.png "Diagrama de Entidade Relacionamento de Exemplo")
+[Modelar bancos de dados.pdf](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/files/11245187/Modelar.bancos.de.dados.pdf)
+
 
 ## 6. Indicadores de desempenho
 
