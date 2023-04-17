@@ -121,31 +121,31 @@ Processo em que o aluno solicita uma ficha de treinamento ao seu personal.
 
 ![Solicitação de ficha de treinamento](https://user-images.githubusercontent.com/104036970/229921314-a17adece-fd0c-4c89-aa0e-fefcd4646c74.png)
 
-### 3.3.4 Processo 4 – Montagem de ficha de treinamento
+### 3.3.4 Processo 3 – Montagem de ficha de treinamento
 
 O personal monta a ficha de treinamento solicitada pelo seu aluno.
 
 ![Montagem de ficha de treinamento](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/blob/44c750ebf219ac5866651578ab0d520d5641ba01/docs/imagens/absence-request.png)
 
-### 3.3.5 Processo 5 – Cancelamento de treino pelo aluno
+### 3.3.5 Processo 4 – Cancelamento de treino pelo aluno
 
 O aluno cancela uma aula agendada com o personal.
 
 ![Cancelamento do treino pelo aluno](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/blob/master/docs/imagens/Cancelar%20treino.png)
 
-### 3.3.6 Processo 6 – Cancelamento do plano com aluno
+### 3.3.6 Processo 5 – Cancelamento do plano com aluno
 
 Personal cancela plano com algum aluno
 
 ![Cancelamento do plano com aluno](https://user-images.githubusercontent.com/104329840/230903140-513d9656-edc4-4fbd-aa16-714e92afb300.png)
 
-### 3.3.7 Processo 7 – Pagamento do personal trainer
+### 3.3.7 Processo 6 – Pagamento do personal trainer
 
 Aluno paga o personal de acordo com seu plano.
 
 ![Pagamento do personal trainer](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/blob/a575164ca74ecf2e02f5fc99f821893029ebaf32/docs/imagens/pagamento.png)
 
-### 3.3.8 Processo 8 – Avalição do personal trainer
+### 3.3.8 Processo 7 – Avalição do personal trainer
 
  Aluno avalia personal depois de ter aulas com ele.
 
@@ -210,7 +210,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Grupo muscular  | Múltipla escolha  |  Aula marcada  |    |
 | Confirmar solicitação de ficha | Seleção única | Aula marcada |  |
 
-#### Processo 4– Montagem de ficha de treinamento
+#### Processo 3– Montagem de ficha de treinamento
 
 **Abrir solicitação de ficha do aluno**
 
@@ -228,7 +228,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 
 
-#### Processo 5 – Cancelamento de treino pelo aluno
+#### Processo 4 – Cancelamento de treino pelo aluno
 
 **Selecionar aula agendada**
 
@@ -243,7 +243,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Confirmar cancelamento | Seleção única | ter selecionado uma aula |   |
 
 
-#### Processo 6 – Cancelamento do plano com aluno
+#### Processo 5 – Cancelamento do plano com aluno
 
 **Escolher o aluno para cancelar o plano**
 
@@ -271,7 +271,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | --- | --- | --- | --- |
 | Forma de pagamento | Seleção única |  |  |
 
-#### Processo 7– Avaliação do personal  trainer
+#### Processo 6– Avaliação do personal  trainer
 
 **Avaliar o personal**
 
