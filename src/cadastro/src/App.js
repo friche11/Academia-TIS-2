@@ -16,7 +16,8 @@ function App() {
   const validationRegister = yup.object().shape({
     email: yup.string().email().required("Este campo é obrigatório"),
     password: yup.string().min(8, "A senha deve ter no mínimo 8 caracteres").required("Este campo é obrigatório"),
-    confirmpassword: yup.string().min(8, "As senhas não coincidem").required("As senhas não coincidem"),
+    confirmation: yup.string().oneOf([yup.ref("password"), null], "As senhas são diferentes")
+    .required("A confirmação da senha é obrigatória"),
   });
 
 
@@ -61,8 +62,8 @@ function App() {
         </div>
 
         <div className="login-form-group">
-            <Field name="confirmpassword" className="form-field" placeholder="Confirme sua senha"></Field>
-            <ErrorMessage component="span" name="confirmpassword" className="form-error"></ErrorMessage>
+            <Field name="confirmation" className="form-field" placeholder="Confirme sua senha"></Field>
+            <ErrorMessage component="span" name="confirmation" className="form-error"></ErrorMessage>
         </div>
         
         <button className="button" type="submit">Cadastre-se</button>
