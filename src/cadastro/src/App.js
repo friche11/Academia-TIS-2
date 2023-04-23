@@ -1,5 +1,5 @@
 import './App.css';
-import {formik, form, field, ErrorMessage} from "formik"; //biblioteca para validação de dados
+import {Formik, form, field, ErrorMessage} from "formik"; //biblioteca para validação de dados
 import * as yup from "yup"; //validação de campos
 
 function App() {
