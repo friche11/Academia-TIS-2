@@ -143,7 +143,7 @@ Personal cancela plano com algum aluno
 
 Aluno paga o personal de acordo com seu plano.
 
-![Pagamento do personal trainer](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/blob/f1622f32c99d12b002adeb49a2550fc37236243b/docs/imagens/absence-request%20(2).png)
+![Pagamento do personal trainer](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/blob/65171435e879b9711fe1e7998e115ecd7c3dbfae/docs/imagens/absence-request%20(3).png)
 
 ### 3.3.8 Processo 7 – Avalição do personal trainer
 
