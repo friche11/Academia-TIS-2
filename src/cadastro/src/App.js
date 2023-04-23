@@ -1,10 +1,10 @@
 import './App.css';
-import {Formik, form, field, ErrorMessage} from "formik"; //biblioteca para validação de dados
+import {Formik, Form, Field, ErrorMessage} from "formik"; //biblioteca para validação de dados
 import * as yup from "yup"; //validação de campos
 
 function App() {
 
-  const handleClickLogin = (value) => console.log(values);
+  const handleClickLogin = (values) => console.log(values);
 
   const validationLogin = yup.object().shape({
     email: yup.string().email().required("Este campo é obrigatório"),
@@ -22,12 +22,12 @@ function App() {
         <Form className="login-form">
         
         <div className="login-form-group">
-            <Filed name="email" className="form-field" placeholder="Email"></Filed>
+            <Field name="email" className="form-field" placeholder="Email"></Field>
             <ErrorMessage component="span" name="email" className="form-error"></ErrorMessage>
         </div>
 
         <div className="login-form-group">
-            <Filed name="password" className="form-field" placeholder="Senha"></Filed>
+            <Field name="password" className="form-field" placeholder="Senha"></Field>
             <ErrorMessage component="span" name="password" className="form-error"></ErrorMessage>
         </div>
         
