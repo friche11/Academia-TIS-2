@@ -312,15 +312,15 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 ### 4.2. Tecnologias
 
 - Ambiente de desenvolvimento: Visual Studio Code.
-- Tecnologias: HTML, CSS, JavaScript, Node.js, MySQL.
+- Tecnologias: HTML, CSS, JavaScript, Node.js, React, MySQL.
 - Bibliotecas e frameworks do Node.js: Express.js, nodemon, sequelize, mysql2, handlebars, express-session, connect-flash, bcryptjs, passportjs.
 
 ## 5. Modelo de dados
 
 Apresente o modelo de dados por meio de um modelo relacional ou Diagrama de Entidade-Relacionamento (DER) que contemple todos conceitos e atributos apresentados item anterior. 
 
-![Modelar bancos de dados](https://user-images.githubusercontent.com/103442333/232353708-4422936c-8797-4c0f-979a-80f3487df7f9.jpeg)
 
+![Modelo de dados academia](https://user-images.githubusercontent.com/104036970/233868365-1f0d2e87-bdfa-445f-9525-e6c1bf9a64b2.png)
 
 
 ## 6. Indicadores de desempenho
