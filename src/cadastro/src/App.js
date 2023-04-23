@@ -13,7 +13,6 @@ function App() {
 
   return (
     <div className="container">
-      //inicio formulario de login
       <h1>Login</h1>
       <Formik
         initalValues={{}} onSubmit={handleClickLogin}
