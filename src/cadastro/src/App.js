@@ -30,7 +30,28 @@ function App() {
             <ErrorMessage component="span" name="password" className="form-error"></ErrorMessage>
         </div>
         
-        <button className="button" type="submit"></button>
+        <button className="button" type="submit">Login</button>
+
+        </Form>
+      </Formik>
+      <h1>Cadastro</h1>
+      <Formik
+        initalValues={{}} onSubmit={handleClickLogin}
+        validationSchema={validationLogin}
+      >
+        <Form className="login-form">
+        
+        <div className="login-form-group">
+            <Field name="email" className="form-field" placeholder="Email"></Field>
+            <ErrorMessage component="span" name="email" className="form-error"></ErrorMessage>
+        </div>
+
+        <div className="login-form-group">
+            <Field name="password" className="form-field" placeholder="Senha"></Field>
+            <ErrorMessage component="span" name="password" className="form-error"></ErrorMessage>
+        </div>
+        
+        <button className="button" type="submit">Login</button>
 
         </Form>
       </Formik>
