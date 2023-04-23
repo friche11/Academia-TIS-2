@@ -312,7 +312,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 ### 4.2. Tecnologias
 
 - Ambiente de desenvolvimento: Visual Studio Code.
-- Tecnologias: HTML, CSS, JavaScript, Node.js, MySQL.
+- Tecnologias: HTML, CSS, JavaScript, Node.js, React, MySQL.
 - Bibliotecas e frameworks do Node.js: Express.js, nodemon, sequelize, mysql2, handlebars, express-session, connect-flash, bcryptjs, passportjs.
 
 ## 5. Modelo de dados
