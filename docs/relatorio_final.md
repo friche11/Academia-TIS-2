@@ -319,7 +319,8 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 Apresente o modelo de dados por meio de um modelo relacional ou Diagrama de Entidade-Relacionamento (DER) que contemple todos conceitos e atributos apresentados item anterior. 
 
-![Modelo de dados academia](https://user-images.githubusercontent.com/104036970/233868266-122376d6-7ea3-424a-806f-50893c42fa00.png)
+
+![Modelo de dados academia](https://user-images.githubusercontent.com/104036970/233868365-1f0d2e87-bdfa-445f-9525-e6c1bf9a64b2.png)
 
 
 ## 6. Indicadores de desempenho
