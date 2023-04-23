@@ -267,13 +267,6 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | --- | --- | --- | --- |
 |Escolher aula |Seleção Única | Cliente logado|   |
 
-
-**Escolher plano**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Escolher plano | Seleção Única | Cliente logado  |  |
-
 **Selecionar a forma de pagamento**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
