@@ -38,3 +38,7 @@ h1{
     margin-bottom: 20px;
     padding-left: 5px 10px;
 }
+
+.navbar__button:hover {
+    background-color: #f1f1f1;
+}

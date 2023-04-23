@@ -1,7 +1,8 @@
 import './App.css';
+import React from 'react';
 import {Formik, Form, Field, ErrorMessage} from "formik"; //biblioteca para validação de dados
 import * as yup from "yup"; //validação de campos
-import Axios from "axios";
+
 
 function App() {
 
@@ -13,29 +14,35 @@ function App() {
   });
 
   return (
-    <div className="container">
-      <h1>Login</h1>
-      <Formik
-        initalValues={{}} onSubmit={handleClickLogin}
-        validationSchema={validationLogin}
-      >
-        <Form className="login-form">
-        
-        <div className="login-form-group">
-            <Field name="email" className="form-field" placeholder="Email"></Field>
-            <ErrorMessage component="span" name="email" className="form-error"></ErrorMessage>
-        </div>
+    <><nav className="navbar">
+      <ul>
+        <button className="button" type="submit">Cadastre-se</button>
+        <button className="button" type="submit">Página inicial</button>
+        <button className="button" type="submit">Sobre</button>
+      </ul>
+    </nav><div className="container">
+        <h1>Login</h1>
+        <Formik
+          initalValues={{}} onSubmit={handleClickLogin}
+          validationSchema={validationLogin}
+        >
+          <Form className="login-form">
 
-        <div className="login-form-group">
-            <Field name="password" className="form-field" placeholder="Senha"></Field>
-            <ErrorMessage component="span" name="password" className="form-error"></ErrorMessage>
-        </div>
-        
-        <button className="button" type="submit">Login</button>
+            <div className="login-form-group">
+              <Field name="email" className="form-field" placeholder="Email"></Field>
+              <ErrorMessage component="span" name="email" className="form-error"></ErrorMessage>
+            </div>
 
-        </Form>
-      </Formik>
-    </div>
+            <div className="login-form-group">
+              <Field name="password" className="form-field" placeholder="Senha"></Field>
+              <ErrorMessage component="span" name="password" className="form-error"></ErrorMessage>
+            </div>
+
+            <button className="button" type="submit">Login</button>
+
+          </Form>
+        </Formik>
+      </div></>
   );
 }
 
