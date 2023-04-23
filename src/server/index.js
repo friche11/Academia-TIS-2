@@ -1,3 +1,4 @@
+
 const express = require("express");
 const app = express();
 const mysql = require("mysql");
@@ -9,10 +10,13 @@ const db = mysql.createPool({
     database: "", //colocar nome do banco de dados
 })
 
-app.get('/', (req, res) => {
-    db.carry("INSERT INTO ")
+app.use(express.json())
+
+app.post("/register", (req, res) => {
+    const email = req.body.email;
+    const password = req.body.password;
 });
 
-app.listen(3002, () => {
+app.listen(3001, () => {
     console.log("Rodando na porta 3002")
 })
