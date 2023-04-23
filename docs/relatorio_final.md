@@ -94,11 +94,11 @@ Outro participante importante é o aluno. Ele deve fornecer informações sobre 
 
 ## 3.1. Análise da situação atual
 
-Sistemas de academia que unem alunos a personal trainers costumam funcionar de forma integrada com softwares de gestão da academia e possuem processos bem definidos. O aluno conhece a academia e decide se matricular. Após passar por exames de aptidão física por um profissional da própria academia ele ganha sua primeira ficha de treinamento e todos seus dados são cadastrados no sistema. 
+Sistemas de academia que unem alunos a personal trainers costumam funcionar de forma integrada com softwares de gestão da academia e possuem processos bem definidos. O aluno conhece a academia e decide se matricular. Ele ganha sua primeira ficha de treinamento e todos seus dados são cadastrados no sistema. 
 
 Ao entrar no sistema pela sua conta o aluno tem acesso a personal trainers disponíveis que atuam na academia. Ele pode escolher o profissional de acordo com seus objetivos e marcar sessões de treinamento em dias e horários que estão de acordo com o horário disponível por determinado personal e de acordo com o horário de funcionamento da academia. Caso o aluno escolha um personal, ele poderá solicitar suas fichas de treinamento e assim realizar seu primeiro treino com o personal escolhido. Por sua vez, o personal deverá montar as fichas e enviá-las ao aluno.
 
-Ao entrar no sistema pela sua conta o personal trainer pode encontrar alunos e convidá-los para usufruir de seus serviços. Pode ser oferecido ao aluno uma aula experimental, que deverá ser marcada caso o aluno aceite a proposta. Se o aluno aceitar e gostar da aula experimental ele terá a opção de continuar com o personal pelo tempo que ele escolher de acordo com o plano estabelecido.
+Ao entrar no sistema pela sua conta o personal trainer pode visualizar suas aulas agendadas, pagamento das aulas e criar fichas de treino para os alunos.
 
 ## 3.2. Descrição Geral da proposta
 
