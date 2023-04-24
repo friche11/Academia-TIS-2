@@ -35,73 +35,75 @@ function Cadastro({ logado = false }) {
 
 
     return (
+        <><nav className= "navbar">
+        <ul>
+        <h2>ConectaGym</h2>
+        </ul>
+        </nav>
         <div className="body">
-            <div className="left-cadastro">
-                <img src={Img} alt="Pessoas olhando gráficos" className="chart" />
-            </div>
-            <div className="right-cadastro">
-                <div className="card-cadastro">
-                    <div className="user-links">
-                        <div className="user-link-home">
-                            {!logado && <Link to="/">Home</Link>}
-                        </div>
-
-                        <div className="user-link-cad">
-                            {!logado && <Link to="/cadastro">Cadastro</Link>}
-                        </div>
-                    </div>
-                    <h1>CADASTRO</h1>
-                    <Formik
-                        initialValues={{}}
-                        onSubmit={handleRegister}
-                        validationSchema={validationsRegister}
-                    >
-                        <Form className="login-form">
-                            <div className="form-group">
-                                <label form="email">Usuário</label>
-
-                                <Field name="email" type='email' className="form-field" placeholder="Email" />
-
-                                <ErrorMessage
-                                    component="span"
-                                    name="email"
-                                    className="form-error"
-                                />
-                            </div>
-
-                            {/*Campo de senha*/}
-
-                            <div className="form-group">
-                                <label form="email">Senha</label>
-                                <Field name="password" type='password' className="form-field" placeholder="Senha" />
-
-                                <ErrorMessage
-                                    component="span"
-                                    name="password"
-                                    className="form-error"
-                                />
-                            </div>
-
-                            {/*Confirmação*/}
-
-                            <div className="form-group">
-                                <label form="email">Confirme sua senha</label>
-                                <Field name="confirmation" type='password' className="form-field" placeholder="Senha" />
-
-                                <ErrorMessage
-                                    component="span"
-                                    name="confirmation"
-                                    className="form-error"
-                                />
-                            </div>
-                            <button className="button" type="submit">
-                                CADASTRAR
-                            </button>
-                        </Form>
-                    </Formik>
+                <div className="left-cadastro">
+                    <img src={Img} alt="Academia" className="chart" />
                 </div>
-            </div>
-        </div>
+                <div className="right-cadastro">
+                    <div className="card-cadastro">
+                        <div className="user-links">
+                            <div className="user-link-home">
+                                {!logado && <Link to="/">Home</Link>}
+                            </div>
+
+                            <div className="user-link-cad">
+                                {!logado && <Link to="/cadastro">Cadastro</Link>}
+                            </div>
+                        </div>
+                        <h1>CADASTRO</h1>
+                        <Formik
+                            initialValues={{}}
+                            onSubmit={handleRegister}
+                            validationSchema={validationsRegister}
+                        >
+                            <Form className="login-form">
+                                <div className="form-group">
+                                    <label form="email">Usuário</label>
+
+                                    <Field name="email" type='email' className="form-field" placeholder="Email" />
+
+                                    <ErrorMessage
+                                        component="span"
+                                        name="email"
+                                        className="form-error" />
+                                </div>
+
+                                {/*Campo de senha*/}
+
+                                <div className="form-group">
+                                    <label form="email">Senha</label>
+                                    <Field name="password" type='password' className="form-field" placeholder="Senha" />
+
+                                    <ErrorMessage
+                                        component="span"
+                                        name="password"
+                                        className="form-error" />
+                                </div>
+
+                                {/*Confirmação*/}
+
+                                <div className="form-group">
+                                    <label form="email">Confirme sua senha</label>
+                                    <Field name="confirmation" type='password' className="form-field" placeholder="Senha" />
+
+                                    <ErrorMessage
+                                        component="span"
+                                        name="confirmation"
+                                        className="form-error" />
+                                </div>
+                                <button className="button" type="submit">
+                                    CADASTRAR
+                                </button>
+                            </Form>
+                        </Formik>
+                    </div>
+                </div>
+            </div></>
     );
 }
 
