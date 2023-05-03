@@ -8,6 +8,8 @@ import RootLayout from "../Pages/Root";
 
 //path: caminho após o domínio
 //element: nome do arquivo em que está a página que deve ser carregada 
+//RootLayout: elementos que serão carregados em todas as páginas (navbar, footer...)
+//children: páginas que serão carregadas a partir dos links
 const router = createBrowserRouter([
     {
         path: '/',
