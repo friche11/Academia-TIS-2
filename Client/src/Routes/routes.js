@@ -1,26 +1,23 @@
 import React from "react";
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom"
+import { BrowserRouter,createBrowserRouter, Route, Routes, Link, RouterProvider } from "react-router-dom"
 
-import Login from "../Pages/Login"
+import PaginaInicial from "../Pages/PaginaInicial";
 import Cadastro from "../Pages/Cadastro";
-
-const logado = localStorage.getItem('@user');
-
-
-const Rotas = () => {
-    return (
-        <div className="App">
-            <BrowserRouter>
-                <Routes>
-                    {!logado && <Route path="/" element={<Login logado={logado} />} />}
-                    {!logado && <Route path="/cadastro" element={<Cadastro logado={logado} />} />}
-                </Routes>
-            </BrowserRouter>
-        </div>
-
-    );
-};
+import Login from "../Pages/Login";
 
 
+//path: caminho após o domínio
+//element: nome do arquivo em que está a página que deve ser carregada 
+const router = createBrowserRouter([
+    {path: '/', element: <PaginaInicial />},
+    {path: '/login', element: <Login />},
+    {path: '/cadastro', element: <Cadastro />},
+])
 
-export default Rotas;
+//o valor aplicado a 'RouterProvider' deve ser de mesmo nome que a constante que define 'createBrowserRouter'
+function App(){
+    return <RouterProvider router={router} />;
+}
+
+
+export default App;

@@ -48,7 +48,7 @@ function Cadastro({ logado = false }) {
                     <div className="card-cadastro">
                         <div className="user-links">
                             <div className="user-link-home">
-                                {!logado && <Link to="/">Home</Link>}
+                                {!logado && <Link to="/">Login</Link>}
                             </div>
 
                             <div className="user-link-cad">
