@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import classes from './MainNavigation.module.css'
 
 function navbar(){
-    return <header className={classes.header}>
+    return (<header className={classes.header}>
         <nav>
             <ul className={classes.list}>
                 <li>
@@ -18,6 +18,7 @@ function navbar(){
             </ul>
         </nav>
     </header>
+    );
 }
 
 export default navbar;
