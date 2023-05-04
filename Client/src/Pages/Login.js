@@ -47,15 +47,6 @@ function Login({logado=false}) {
 
         <div className="right-login">
           <div className="card-login">
-            <div className="user-links">
-              <div className="user-link-home">
-                {!logado && <Link to="/">Login</Link>}
-              </div>
-
-              <div className="user-link-cad">
-                {!logado && <Link to="/cadastro">Cadastro</Link>}
-              </div>
-            </div>
             <h1>LOGIN</h1>
             <Formik
               initialValues={{}}

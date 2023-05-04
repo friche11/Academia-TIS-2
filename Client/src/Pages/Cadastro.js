@@ -43,15 +43,6 @@ function Cadastro({ logado = false }) {
                 </div>
                 <div className="right-cadastro">
                     <div className="card-cadastro">
-                        <div className="user-links">
-                            <div className="user-link-home">
-                                {!logado && <Link to="/">Login</Link>}
-                            </div>
-
-                            <div className="user-link-cad">
-                                {!logado && <Link to="/cadastro">Cadastro</Link>}
-                            </div>
-                        </div>
                         <h1>CADASTRO</h1>
                         <Formik
                             initialValues={{}}
