@@ -36,9 +36,6 @@ function Cadastro({ logado = false }) {
 
     return (
         <><nav className= "navbar">
-        <ul>
-        <h2>ConectaGym</h2>
-        </ul>
         </nav>
         <div className="body">
                 <div className="left-cadastro">

@@ -39,9 +39,6 @@ function Login({logado=false}) {
 
   return (
     <><nav className="navbar">
-      <ul>
-        <h2>ConectaGym</h2>
-      </ul>
     </nav><div className="body">
         <div className="left-login">
           <img src={Img} alt="Pessoas olhando gráficos" className="chart" />

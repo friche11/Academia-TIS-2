@@ -5,6 +5,8 @@ import PaginaInicial from "../Pages/PaginaInicial";
 import Cadastro from "../Pages/Cadastro";
 import Login from "../Pages/Login";
 import RootLayout from "../Pages/Root";
+import Fichas from "../Pages/Fichas";
+import Aulas from "../Pages/Aulas";
 
 //path: caminho após o domínio
 //element: nome do arquivo em que está a página que deve ser carregada 
@@ -18,6 +20,8 @@ const router = createBrowserRouter([
             {path: '/', element: <PaginaInicial />},
             {path: '/login', element: <Login />},
             {path: '/cadastro', element: <Cadastro />},
+            {path: '/fichas', element: <Fichas />},
+            {path: '/aulas', element: <Aulas />},
         ],
     },
 ]);
