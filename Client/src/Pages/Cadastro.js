@@ -35,9 +35,9 @@ function Cadastro({ logado = false }) {
 
 
     return (
-        <><nav className= "navbar">
+        <><nav className="navbar">
         </nav>
-        <div className="body">
+            <div className="body">
                 <div className="left-cadastro">
                     <img src={Img} alt="Academia" className="chart" />
                 </div>
@@ -84,7 +84,18 @@ function Cadastro({ logado = false }) {
                                         name="confirmation"
                                         className="form-error" />
                                 </div>
-                        
+
+                                {/*Tipo*/}
+
+                                <div className="form-group">
+                                    <label htmlFor="type">Tipo</label>
+                                    <Field as="select" name="type" className="form-field">
+                                        <option value="">Selecione o tipo</option>
+                                        <option value="aluno">Aluno</option>
+                                        <option value="personal trainer">Personal Trainer</option>
+                                    </Field>
+                                </div>
+
                                 <button className="button" type="submit">
                                     CADASTRAR
                                 </button>
