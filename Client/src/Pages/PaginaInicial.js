@@ -8,8 +8,6 @@ function PaginaInicial() {
     <>
     <body>
     <h1>Página Incial</h1>
-    <p>Go to <Link to="/Login">Login</Link>.</p>
-    <p>Go to <Link to="/Cadastro">Cadastro</Link>.</p>
     </body>
     </>
     );
