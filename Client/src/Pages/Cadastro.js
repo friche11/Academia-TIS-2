@@ -84,6 +84,7 @@ function Cadastro({ logado = false }) {
                                         name="confirmation"
                                         className="form-error" />
                                 </div>
+                        
                                 <button className="button" type="submit">
                                     CADASTRAR
                                 </button>
