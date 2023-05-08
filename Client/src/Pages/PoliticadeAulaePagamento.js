@@ -1,30 +1,21 @@
-import "../Styles/PoliticadePrivacidade.css"
+import "../Styles/PoliticasdeAulasePagamentos.css"
 
 function PoliticadeAulaePagamento(){
     return (
         <>
-        <body>
-        <div className="body">
-            <p></p>
-            <p className="texto"><p className="titulo">Política de Privacidade</p>
-
-<p className="subtitulo">Coleta de Informações</p>
-Coletamos informações fornecidas pelos usuários ao se registrarem no sistema, incluindo nome, endereço de e-mail e outras informações de contato. Também coletamos informações sobre as necessidades de treinamento do usuário e as habilidades e especialidades do personal trainer para fornecer sugestões de conexões adequadas. As informações de pagamento também são coletadas para processar pagamentos de serviços.
-<p></p>
-<p className="subtitulo">Uso de Informações</p>
-As informações coletadas são usadas para conectar os usuários a personal trainers e permitir a interação entre eles. As informações do usuário também podem ser usadas para enviar atualizações sobre o sistema, novos recursos e promoções relevantes. Além disso, as informações do usuário podem ser usadas para melhorar o sistema e personalizar a experiência do usuário.
-<p></p>
-<p className="subtitulo">Proteção de Informações</p>
-Tomamos medidas para proteger as informações do usuário contra acesso, uso ou divulgação não autorizados. As informações são armazenadas em servidores seguros e só são acessíveis por membros autorizados da equipe. Também exigimos que todos os personal trainers registrados no sistema mantenham a confidencialidade das informações do usuário.
-<p></p>
-<p className="subtitulo">Compartilhamento de Informações</p>
-Não compartilhamos informações do usuário com terceiros, exceto quando necessário para processar pagamentos ou atender solicitações do usuário. No entanto, podemos compartilhar informações agregadas ou anônimas com terceiros para fins de análise ou marketing.
-<p></p>
-<p className="subtitulo">Alterações na Política de Privacidade</p>
-Reservamo-nos o direito de alterar esta política de privacidade a qualquer momento. Os usuários serão notificados sobre as mudanças significativas na política de privacidade e serão solicitados a ler e aceitar as alterações antes de continuar a usar o sistema.</p>
-
-                    </div>
-        </body>
+        <p className="texto"><h1 className="titulo">Políticas de Aulas e Pagamentos</h1></p>
+  <body>
+    <p className="texto">O nosso sistema foi desenvolvido com o objetivo de conectar alunos a personal trainers de forma eficiente e eficaz, permitindo que ambos os lados encontrem a solução ideal para suas necessidades.</p>
+    <p></p>
+    <p className="texto">O diferencial do nosso sistema é que os alunos podem solicitar e visualizar fichas de treinamento, agendar horários e conversar com seus personal trainers para discutir metas, desafios e progresso. Por outro lado, os personal trainers podem montar fichas de treinamento personalizadas para cada aluno, gerenciar sua agenda e acompanhar a evolução de seus alunos.</p>
+    <p></p>
+    <p className="texto">Em relação aos pagamentos, é importante lembrar que eles são feitos por aula e devem ser realizados antes do início da sessão. O cancelamento da aula deve ser feito com pelo menos 24 horas de antecedência, para que o personal trainer possa se programar adequadamente e evitar qualquer prejuízo para ambos os lados.</p>
+    <p></p>
+    <p className="texto">Para garantir a qualidade do serviço prestado, pedimos que os alunos e personal trainers respeitem as políticas de aulas e pagamentos e estejam sempre dispostos a colaborar um com o outro para alcançar seus objetivos de forma eficiente e eficaz.</p>
+    <p>
+    <p></p>
+    </p>
+  </body>
         </>
         );
 }

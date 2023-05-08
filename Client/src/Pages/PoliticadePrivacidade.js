@@ -6,7 +6,7 @@ function PoliticadePrivacidade(){
         <body>
         <div className="body">
             <p></p>
-            <p className="texto"><p className="titulo">Política de Privacidade</p>
+            <p className="texto"><p className="titulo">Política de Pr</p>
 
 <p className="subtitulo">Coleta de Informações</p>
 Coletamos informações fornecidas pelos usuários ao se registrarem no sistema, incluindo nome, endereço de e-mail e outras informações de contato. Também coletamos informações sobre as necessidades de treinamento do usuário e as habilidades e especialidades do personal trainer para fornecer sugestões de conexões adequadas. As informações de pagamento também são coletadas para processar pagamentos de serviços.
@@ -21,7 +21,7 @@ Tomamos medidas para proteger as informações do usuário contra acesso, uso ou
 Não compartilhamos informações do usuário com terceiros, exceto quando necessário para processar pagamentos ou atender solicitações do usuário. No entanto, podemos compartilhar informações agregadas ou anônimas com terceiros para fins de análise ou marketing.
 <p></p>
 <p className="subtitulo">Alterações na Política de Privacidade</p>
-Reservamo-nos o direito de alterar esta política de privacidade a qualquer momento. Os usuários serão notificados sobre as mudanças significativas na política de privacidade e serão solicitados a ler e aceitar as alterações antes de continuar a usar o sistema.</p>
+Os usuários serão notificados sobre as mudanças significativas na política de privacidade e serão solicitados a ler e aceitar as alterações antes de continuar a usar o sistema.</p>
 
                     </div>
         </body>
