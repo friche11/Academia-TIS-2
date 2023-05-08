@@ -59,7 +59,7 @@
   background-color: #f44e3f;
   color: #f44e3f;
   font-size: 12pt;
-  box-shadow: 0px 10px 40px #fbfffe;
+  box-shadow: 0px 10px 40px ;
   box-sizing: border-box;
   outline: none;
 }
@@ -77,7 +77,7 @@
 }
 
 .form-field ::placeholder {
-  color: #f44e3f;
+  color: black;
 }
 
 .button {
@@ -91,7 +91,7 @@
   letter-spacing: 3px;
   cursor: pointer;
   margin-top: 15px;
-  background: #B3DAF2;
+  background: #f44e3f;
   color: black;
 }
 

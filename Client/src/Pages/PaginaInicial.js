@@ -1,3 +1,4 @@
+import Img from "../Assets/database.svg"
 import { Link } from 'react-router-dom';
 import "../Styles/PaginaInicial.css"
 
@@ -7,7 +8,11 @@ function PaginaInicial() {
     return (
     <>
     <body>
-    <h1>Página Incial</h1>
+    <div className="body">
+                <div className="left-cadastro">
+                    <img src={Img} alt="Academia" className="chart" />
+                </div>
+                </div>
     </body>
     </>
     );

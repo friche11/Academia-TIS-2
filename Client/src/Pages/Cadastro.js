@@ -88,8 +88,8 @@ function Cadastro({ logado = false }) {
                                 {/*Tipo*/}
 
                                 <div className="form-group">
-                                    <label htmlFor="type">Tipo</label>
-                                    <Field as="select" name="type" className="form-field">
+                                    <label htmlFor="type">Tipo de perfil</label>
+                                    <Field as="select" name="type" className="form-field" placeholder="Aluno ou personal trainer">
                                         <option value="">Selecione o tipo</option>
                                         <option value="aluno">Aluno</option>
                                         <option value="personal trainer">Personal Trainer</option>
