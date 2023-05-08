@@ -36,9 +36,6 @@ function Ficha() {
   return (
     <body>
     <div class="container">
-        <div class="form-image">
-            <img src="assets/img//undraw_shopping_re_3wst.svg" alt=""/>
-        </div>
         <div class="form">
             <form action="#">
                 <div class="form-header">
@@ -53,8 +50,31 @@ function Ficha() {
                     </div>
 
                     <div className="form-group">
-                        <label for="grupo_muscular">Grupo Muscular</label>
-                        <input id="grupo_muscular" type="text" name="grupo_muscular" placeholder="Digite o grupo muscular" required/>
+                    <label for="grupo_muscular">Grupo Muscular</label>
+                    <select id="grupo_muscular" name="grupo_muscular" value={grupoMuscular} onChange={(e) => setGrupoMuscular(e.target.value)} required>
+                        <option value="">Selecione um grupo muscular</option>
+                        <option value="peito">Peito</option>
+                        <option value="costas">Costas</option>
+                        <option value="pernas">Pernas</option>
+                        <option value="ombros">Ombros</option>
+                        <option value="braços">Braços</option>
+                        <option value="abdominais">Abdominais</option>
+                    </select>
+                </div>
+
+                    <div className="form-group">
+                        <label for="grupo_muscular">Número de repetições</label>
+                        <input id="grupo_muscular" type="select" name="grupo_muscular" placeholder="Digite o número de repetições" required/>
+                    </div>
+
+                    <div className="form-group">
+                        <label for="grupo_muscular">Número de séries</label>
+                        <input id="grupo_muscular" type="select" name="grupo_muscular" placeholder="Digite o número de séries" required/>
+                    </div>
+
+                    <div className="form-group">
+                        <label for="grupo_muscular">Tempo de descanso</label>
+                        <input id="grupo_muscular" type="select" name="grupo_muscular" placeholder="Digite o tempo de descanso em segundos" required/>
                     </div>
                     
                     <div className="form-group">
