@@ -46,7 +46,7 @@ function Ficha() {
 
                 <div className="form-group">
                         <label for="name">Nome Ficha</label>
-                        <input id="nome_ficha" type="text" name="name" placeholder="Digite o nome da ficha" required/>
+                        <input id="nome_ficha" type="text" name="grupo_muscular" placeholder="Digite o nome da ficha" required/>
                     </div>
 
                     <div className="form-group">
