@@ -41,7 +41,7 @@ function Login({logado=false}) {
     <><nav className="navbar">
     </nav><div className="body">
         <div className="left-login">
-          <img src={Img} alt="Pessoas olhando gráficos" className="chart" />
+          <img src={Img} alt="Academia" className="chart" />
 
         </div>
 
