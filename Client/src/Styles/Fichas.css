@@ -10,7 +10,6 @@ h1{
     color: #FFFFFF;
 }
 
-
 .form-group {
     width: 100%;
     display: flex;
@@ -18,4 +17,9 @@ h1{
     align-items: flex-start;
     justify-content: center;
     margin: 10px 0px;
+    background-color: #f44e3f;
+  }
+
+  button{
+    align-items: center;
   }
