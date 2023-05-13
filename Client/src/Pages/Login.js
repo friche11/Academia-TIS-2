@@ -55,7 +55,7 @@ function Login({logado=false}) {
             >
               <Form className="login-form">
                 <div className="form-group">
-                  <label form="email">Usuário</label>
+                  <label form="email">Login:</label>
 
                   <Field name="email" type='email' className="form-field" placeholder="Email" />
 
@@ -68,7 +68,7 @@ function Login({logado=false}) {
                 {/*Outro campo*/}
 
                 <div className="form-group">
-                  <label form="email">Senha</label>
+                  <label form="email">Senha:</label>
                   <Field name="password" type='password' className="form-field" placeholder="Senha" />
 
                   <ErrorMessage

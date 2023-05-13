@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   position: fixed;
-  top: 0;
+  top: 0.6rem;
   left: 0;
 }
 
@@ -40,6 +40,6 @@ h2 {
 
 ul li {
   list-style-type: none;
-  padding: 15px 17.5px;
+  padding: 0.5rem 1rem ;
 }
 
