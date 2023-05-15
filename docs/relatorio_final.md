@@ -212,18 +212,29 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 #### Processo 3– Montagem de ficha de treinamento
 
-**Abrir solicitação de ficha do aluno**
+**Receber solicitação de ficha do aluno**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Solicitação de ficha  | Seleção única | Personal logado na conta |  |
+| Receber solicitação do aluno | Seleção única | Personal logado na conta  |   |
 
-**Montar ficha de treino**
+**Elaborar programa de treinamento**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Montar ficha  | Seleção única | Personal logado na conta  |   |
 
+**Documentar o programa de treinamento**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Documentar ficha |  Área de texto | Personal logado na conta  |  
+
+**Enviar ficha de treinamento para o aluno**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Enviar a ficha | Seleção única | Personal logado na conta  |  
 
 
 
