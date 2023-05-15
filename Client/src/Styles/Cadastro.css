@@ -70,9 +70,9 @@
     width: 60%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
-    padding: 0px 35px;
+    padding: 30px 35px;
     background-color: #F47968;
     border-radius: 20px;
   }
@@ -81,6 +81,10 @@
     color: #FFFFFF;
     font-weight: 800;
     margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    display: flex;
+    align-self: center;
   }
   
   .chart{
@@ -139,6 +143,10 @@
     margin-top: 15px;
     background: #F44E3F;
     color: black;
+  }
+
+  .button:hover {
+    background-color: #f3a299;
   }
   
   .user-links{

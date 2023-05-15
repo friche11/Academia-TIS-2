@@ -1,16 +1,18 @@
 .footer {
     background-color: #F47968;
+    padding-top: 1rem;
+    padding-bottom: 0.01rem;
   }
   
   .footerColumns {
     display: flex;
     justify-content: space-between;
-    margin: 0 -15px;
+    margin: 1rem 5rem;
   }
   
   .footerColumn {
     width: 30%;
-    padding: 0px 15px;
+    padding: 0 1.1rem;
   }
   
   .footerColumn1 {
@@ -19,7 +21,7 @@
   
   .footerColumn2 {
     order: 2;
-    padding-left: 60px;
+    padding-left: 3.75rem;
   }
   
   .footerColumn3 {
@@ -53,6 +55,10 @@
     color: #333;
     text-decoration: none;
   }
+
+  .footerList ul li {
+    padding: 0 !important;
+  }
   
   .footerList a:hover {
     text-decoration: underline;
@@ -62,3 +68,4 @@
     font-size: 14px;
     line-height: 1.5;
   }
+
