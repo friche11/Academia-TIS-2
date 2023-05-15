@@ -2,12 +2,11 @@ import dotenv from "dotenv";
 import express, { json, urlencoded } from "express";
 import "express-async-errors";
 import cors from "cors";
+import database from "./src/index.js";
+import routes from "./src/Routes/routes.js";
 
 // Get env variables
-dotenv.config();
-
-import database from "./src/index.js";
-import routes from "./src/Routes/routes.js"; // Import API routes
+dotenv.config(); // Import API routes
 
 // Establish database connection
 (async () => {
