@@ -19,6 +19,7 @@ module.exports = function override(config) {
     assert: require.resolve('assert/'),
     path: require.resolve('path-browserify'),
     pg_hstore: require.resolve('pg-hstore'),
+    os: require.resolve("os-browserify/browser"),
     fs: false,
   };
 
