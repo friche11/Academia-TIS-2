@@ -137,7 +137,7 @@ O aluno cancela uma aula agendada com o personal.
 
 Personal cancela aula com algum aluno
 
-![Cancelamento do plano com aluno](https://user-images.githubusercontent.com/104329840/232488949-d3783378-cccf-4b11-a34b-0273d995bb7e.png)
+![Cancelamento de aula com aluno](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/assets/104329840/87f3f58e-fcd3-4b15-ac8f-4f44f4d97eac)
 
 ### 3.3.7 Processo 6 – Pagamento do personal trainer
 
@@ -254,7 +254,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Confirmar cancelamento | Seleção única | ter selecionado uma aula |   |
 
 
-#### Processo 5 – Cancelamento do plano com aluno
+#### Processo 5 – Cancelamento de aula com aluno
 
 **Escolher a aula que deseja cancelar **
 
