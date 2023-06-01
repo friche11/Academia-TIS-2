@@ -133,9 +133,9 @@ O aluno cancela uma aula agendada com o personal.
 
 ![Cancelamento do treino pelo aluno](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/blob/master/docs/imagens/Cancelar%20treino.png)
 
-### 3.3.6 Processo 5 – Cancelamento do plano com aluno
+### 3.3.6 Processo 5 – Cancelamento de aula com aluno
 
-Personal cancela plano com algum aluno
+Personal cancela aula com algum aluno
 
 ![Cancelamento do plano com aluno](https://user-images.githubusercontent.com/104329840/232488949-d3783378-cccf-4b11-a34b-0273d995bb7e.png)
 
