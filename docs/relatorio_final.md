@@ -137,7 +137,7 @@ O aluno cancela uma aula agendada com o personal.
 
 Personal cancela aula com algum aluno
 
-![Cancelamento de aula com aluno](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/assets/104329840/87f3f58e-fcd3-4b15-ac8f-4f44f4d97eac)
+![Cancelamento de aula com aluno](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/assets/104329840/f1476aac-6411-4836-a198-62689d9e2640)
 
 ### 3.3.7 Processo 6 – Pagamento do personal trainer
 
