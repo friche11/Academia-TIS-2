@@ -338,6 +338,8 @@ Usar o seguinte modelo:
 | Avaliação de aulas | Avaliar satisfação dos alunos mensalmente | Média das notas das aulas |  (Soma das notas)/(Quantidade de avaliações em 1 mês) | Tabela Avaliação | Aprendizado e Crescimento |
 | Taxa de aulas agendadas | Avaliar desempenho medindo a quantidade de aulas agendadas na semana | Quantidade de aulas por semana |  | Tabela Aula | Avaliação interna |
 | Taxa de cancelamento | Medir o percentual de aulas canceladas mensalmente | Mede % aulas canceladas em 1 mês | (Quantidade de cancelamentos/Quantidade de agendamentos) * 100  | Tabela Aula | Processos internos |
+| Taxa de adesão de personal | Medir o percentual de personais cadastrados em um semestre | Mede % de professores cadastrados em relação a quantidade do último semestre | (Quantidade de profissionais dos últimos 6 meses/Quantidade de profissionais no novo semestre) * 100  | Tabela Personal | Crescimento |
+| Taxa de adesão de alunos | Medir o percentual de alunos cadastrados em um semestre | Mede % de alunos cadastrados em relação a quantidade do último semestre | (Quantidade de alunos dos últimos 6 meses/Quantidade de alunos do novo semestre) * 100| Tabela Aluno | Crescimento |
 
 Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe **a ser proposto**
 
