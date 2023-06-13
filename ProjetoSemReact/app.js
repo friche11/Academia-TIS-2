@@ -3,11 +3,32 @@
     const handlebars = require('express-handlebars')
     const bodyParser = require('body-parser')
     const app = express()
+    const admin = require('./routes/admin')
+    const aluno = require('./routes/aluno')
+    const personal = require('./routes/personal')
+    const path = require('path')
+
 // Configuracoes
+    // Body Parser
+        app.use(bodyParser.urlencoded({extended: true}))
+        app.use(bodyParser.json())
+    // Handlebars
+        app.engine('handlebars', handlebars.engine({defaultLayout: 'main'}))
+        app.set('view engine', 'handlebars');
+    // MySQL
+
+
+    // Public
+    app.use(express.static(path.join(__dirname + "/public")))
+
 
 
 
 // Rotas
+app.use('/admin', admin)
+app.use("/aluno", aluno)
+app.use("/personal", personal)
+
 
 
 
