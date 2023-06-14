@@ -28,6 +28,10 @@
 app.get('/', (req,res)=>{
     res.render("cliente/index")
 })
+
+app.get('/cadastro', (req,res)=>{
+    res.render('cliente/cadastro')
+})
 app.use('/admin', admin)
 app.use("/aluno", aluno)
 app.use("/personal", personal)
