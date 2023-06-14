@@ -1,0 +1,45 @@
+.navbar{
+    background: #06080D;
+    color: #FBFFFE;
+  }
+  
+  .p{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .body {
+      margin: 0;
+      width: 100%;
+      height: 100vh;
+      /*fundo da página */
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+.texto{
+    color: aliceblue;
+    display: flex;
+     margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+.titulo{
+    color: #F47968;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size:large;
+}
+
+.subtitulo{
+    color: #F47968;
+    text-align: center;
+    font-weight: bold;
+    font-size:large;
+}
+

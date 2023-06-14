@@ -36,6 +36,10 @@ app.get('/cadastro', (req,res)=>{
 app.get('/login', (req,res)=>{
     res.render('cliente/login')
 })
+
+app.get('/politica-de-privacidade', (req,res)=>{
+    res.render('cliente/politicaPrivacidade')
+})
 app.use('/admin', admin)
 app.use("/aluno", aluno)
 app.use("/personal", personal)
