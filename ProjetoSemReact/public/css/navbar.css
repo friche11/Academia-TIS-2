@@ -1,0 +1,47 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #06080D;
+
+  padding: 1rem;
+  }
+  
+.nav {
+    margin-top: 0;
+    display: flex;
+    max-width: max-content;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    background-color: #06080D;
+  }
+  
+.list {
+    display: flex;
+    max-width: max-content;
+    gap: 1rem;
+    background-color: #06080D;
+  }
+  
+.list a {
+    text-decoration: none;
+    color: white;
+  }
+  
+.list a:hover,
+.list a.active {
+    color: red;
+    text-decoration: underline;
+  }
+  
+h2 {
+    color: #F47968;
+    margin-left: 1rem;
+  }
+  
+ul li {
+    list-style-type: none;
+    padding: 0.5rem 1rem ;
+  }
+  

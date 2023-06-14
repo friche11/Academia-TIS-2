@@ -25,6 +25,9 @@
 
 
 // Rotas
+app.get('/', (req,res)=>{
+    res.render("cliente/index")
+})
 app.use('/admin', admin)
 app.use("/aluno", aluno)
 app.use("/personal", personal)
