@@ -7,6 +7,7 @@
     const aluno = require('./routes/aluno')
     const personal = require('./routes/personal')
     const path = require('path')
+    const Sequelize = require('sequelize')
 
 // Configuracoes
     // Body Parser
@@ -15,8 +16,17 @@
     // Handlebars
         app.engine('handlebars', handlebars.engine({defaultLayout: 'main'}))
         app.set('view engine', 'handlebars');
-    // MySQL
+    // Conexao com MySQL
+        const sequelize = new Sequelize('academia', 'root', '123456', {
+            host: "localhost",
+            dialect: 'mysql'
+        })
 
+        sequelize.authenticate().then(function(){
+            console.log("Conectado com sucesso")
+        }).catch(function(erro){
+                console.log("Falha ao se conectar: "+erro)
+        })
 
     // Public
     app.use(express.static(path.join(__dirname + "/public")))
