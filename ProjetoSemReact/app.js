@@ -36,6 +36,15 @@ app.get('/cadastro', (req,res)=>{
     res.render('cliente/cadastro')
 })
 
+app.post('/cadastro', (req, res) =>{
+    if(req.body.type == aluno){
+res.render('aluno/confirmarCadastro')
+}
+if(req.body.type == personal){
+    res.render('personal/confirmarCadastro')
+}
+})
+
 app.get('/login', (req,res)=>{
     res.render('cliente/login')
 })
