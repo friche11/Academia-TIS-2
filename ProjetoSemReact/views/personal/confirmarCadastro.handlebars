@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+<body>
+  <nav class="navbar">
+  </nav>
+  <div class="body">
+    <div class="left-cadastro">
+      <img src="../img/database.svg" alt="Academia" class="chart" />
+    </div>
+    <div class="right-cadastro">
+      <div class="card-cadastro">
+        <h1>CADASTRO</h1>
+        <form class="login-form">
+          <div class="form-group">
+            <label for="name">Nome completo</label>
+            <input name="nome" type="name" class="form-field" placeholder="Nome completo" />
+            <span class="form-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="date">Data de nascimento</label>
+            <input name="password" type="password" class="form-field" placeholder="Senha" />
+            <span class="form-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="confirmation">Confirme sua senha</label>
+            <input name="confirmation" type="password" class="form-field" placeholder="Senha" />
+            <span class="form-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="type">Tipo de perfil</label>
+            <select name="type" class="form-field" placeholder="Aluno ou personal trainer">
+              <option value="">Selecione o tipo</option>
+              <option value="aluno">Aluno</option>
+              <option value="personal trainer">Personal Trainer</option>
+            </select>
+          </div>
+          <button class="button" type="submit">CADASTRAR</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

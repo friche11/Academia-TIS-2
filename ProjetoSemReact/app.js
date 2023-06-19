@@ -8,12 +8,16 @@
     const personal = require('./routes/personal')
     const path = require('path')
     const sequelize = require('sequelize')
+    const session = require('express-session')
+    const flash = require('connect-flash')
+    const bcrypt = require('bcryptjs')
+
    
 
 // Configuracoes
     // Body Parser
-        app.use(bodyParser.urlencoded({extended: true}))
-        app.use(bodyParser.json())
+        app.use(express.urlencoded({extended: true}))
+        app.use(express.json())
     // Handlebars
         app.engine('handlebars', handlebars.engine({defaultLayout: 'main'}))
         app.set('view engine', 'handlebars');
@@ -21,7 +25,19 @@
         const db = require('./models/db.js')
         const Aluno = require('./models/Aluno.js')
         const Personal = require('./models/Personal.js')
-
+    // Sessao
+        app.use(session({
+            secret: "qualquercoisa",
+            resave: true,
+            saveUninitialized: true
+        }))
+        app.use(flash())
+    // Middlewares
+        app.use((req, res, next)=>{
+            res.locals.success_msg = req.flash("sucess_msg")
+            res.locals.error_msg = req.flash("error_msg")
+            next()
+        })
     // Public
     app.use(express.static(path.join(__dirname + "/public")))
 
@@ -37,11 +53,18 @@ app.get('/cadastro', (req,res)=>{
 })
 
 app.post('/cadastro', (req, res) =>{
-    if(req.body.type == aluno){
-res.render('aluno/confirmarCadastro')
+    const type = req.body.type
+    const email = req.body.email
+    const senha = req.body.password
+
+    req.session.email = email
+    req.session.password = senha
+
+    if(type == 'aluno'){
+res.redirect('/aluno/cadastro')
 }
-if(req.body.type == personal){
-    res.render('personal/confirmarCadastro')
+if(type == 'personal'){
+    res.redirect('/personal/cadastro')
 }
 })
 

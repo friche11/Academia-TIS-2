@@ -3,5 +3,10 @@ npm install --save express-handlebars
 npm install body-parser --save 
 npm install --save sequelize
 npm install --save mysql2
+npm install express-session
+npm install --save connect-flash
+npm install --save bcryptjs
+npm install --save passport
+npm install --save passport-local
 
 Para acessar e visualizar as tabelas do MySQL basta colocar no terminal "mysql -h localhost -u root -p" e inserir sua senha.
