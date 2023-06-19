@@ -11,6 +11,8 @@
     const session = require('express-session')
     const flash = require('connect-flash')
     const bcrypt = require('bcryptjs')
+    const passport = require('passport')
+    require("./config/auth.js")(passport)
 
    
 
@@ -31,6 +33,10 @@
             resave: true,
             saveUninitialized: true
         }))
+
+        app.use(passport.initialize())
+        app.use(passport.session())
+
         app.use(flash())
     // Middlewares
         app.use((req, res, next)=>{
@@ -55,10 +61,10 @@ app.get('/cadastro', (req,res)=>{
 app.post('/cadastro', (req, res) =>{
     const type = req.body.type
     const email = req.body.email
-    const senha = req.body.password
+    const senha = req.body.senha
 
     req.session.email = email
-    req.session.password = senha
+    req.session.senha = senha
 
     if(type == 'aluno'){
 res.redirect('/aluno/cadastro')
@@ -70,6 +76,15 @@ if(type == 'personal'){
 
 app.get('/login', (req,res)=>{
     res.render('cliente/login')
+})
+
+app.post('/login', (req, res, next)=>{
+    passport.authenticate("local",{
+        successRedirect: "/",
+        failureRedirect: "/login",
+        failureFlash: true
+    })(req, res, next)
+
 })
 
 app.get('/politica-de-privacidade', (req,res)=>{

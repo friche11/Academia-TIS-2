@@ -9,13 +9,12 @@
   <nav class="navbar">
   </nav>
   <div class="body">
-    <div class="left-cadastro">
-      <img src="../img/database.svg" alt="Academia" class="chart" />
-    </div>
+    
     <div class="right-cadastro">
       <div class="card-cadastro">
-        <h1>CADASTRO</h1>
-        <form class="login-form">
+        <h1>CONFIRME SEU CADASTRO COMO PERSONAL</h1>
+        
+        <form action="/personal/cadastro" method="POST" class="login-form">
           <div class="form-group">
             <label for="name">Nome completo</label>
             <input name="nome" type="name" class="form-field" placeholder="Nome completo" />
@@ -23,22 +22,27 @@
           </div>
           <div class="form-group">
             <label for="date">Data de nascimento</label>
-            <input name="password" type="password" class="form-field" placeholder="Senha" />
+            <input name="date" type="date" class="form-field" placeholder="Senha" />
             <span class="form-error"></span>
           </div>
           <div class="form-group">
-            <label for="confirmation">Confirme sua senha</label>
-            <input name="confirmation" type="password" class="form-field" placeholder="Senha" />
+            <label for="genero">Gênero</label>
+            <select name="genero" class="form-field">
+            <option value="">Selecione o gênero</option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+  
+          </select>
+            <span class="form-error"></span>
+          
+
+          <div class="form-group">
+            <label for="idade">Idade</label>
+            <input type="number" name="idade" class="form-field" placeholder="Digite sua idade">
             <span class="form-error"></span>
           </div>
-          <div class="form-group">
-            <label for="type">Tipo de perfil</label>
-            <select name="type" class="form-field" placeholder="Aluno ou personal trainer">
-              <option value="">Selecione o tipo</option>
-              <option value="aluno">Aluno</option>
-              <option value="personal trainer">Personal Trainer</option>
-            </select>
-          </div>
+          
+
           <button class="button" type="submit">CADASTRAR</button>
         </form>
       </div>

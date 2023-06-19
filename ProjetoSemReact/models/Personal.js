@@ -31,9 +31,15 @@ const Personal = db.sequelize.define('personais',{
         type:db.Sequelize.INTEGER,
         allowNull: false
     },
+    //alunoId: {
+        //type: db.Sequelize.INTEGER,
+        //allowNull: true
+    //}
 
 })
 
 //Personal.sync({force: true})
 
-module.exports = Personal
+
+
+module.exports = Personal;
