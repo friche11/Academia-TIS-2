@@ -4,6 +4,7 @@
     position: fixed;
     top: 0.6rem;
     left: 0;
+    z-index: 9999;
   }
   
 .nav {
@@ -14,6 +15,7 @@
     justify-content: center;
     margin-left: 0;
     background-color: #06080D;
+    z-index: 9999;
   }
   
 .list {

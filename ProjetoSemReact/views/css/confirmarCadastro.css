@@ -1,6 +1,7 @@
 .navbar{
     background: #06080D;
     color: #FBFFFE;
+    
   }
 
   .custom-alert {
@@ -79,7 +80,7 @@
     }
     
     .card-cadastro {
-      width: 60%;
+      width: 100%;
       display: flex;
       justify-content: center;
       /* align-items: center; */

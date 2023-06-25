@@ -16,7 +16,13 @@
       <div class="card-cadastro">
         <h1>CADASTRO</h1>
         <form action='/cadastro' method="POST"class="login-form">
+          {{#each erros}}
+            <div class="alert alert-danger custom-alert">{{texto}}</div>
+            {{else}}
+
+            {{/each}}
           <div class="form-group">
+           
             <label for="email">Email</label>
             <input name="email" type="email" class="form-field" placeholder="Email" />
             <span class="form-error"></span>
@@ -44,5 +50,6 @@
       </div>
     </div>
   </div>
+
 </body>
 </html>

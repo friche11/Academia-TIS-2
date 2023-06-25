@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Cadastro</title>
-  <link rel="stylesheet" href="../css/cadastro.css">
+  <link rel="stylesheet" href="../css/confirmarCadastro.css">
 </head>
 <body>
   <nav class="navbar">
@@ -15,6 +15,11 @@
         <h1>CONFIRME SEU CADASTRO COMO ALUNO</h1>
         
         <form action="/aluno/cadastro" method="POST" class="login-form">
+        {{#each erros}}
+            <div class="alert alert-danger custom-alert">{{texto}}</div>
+            {{else}}
+
+            {{/each}}
           <div class="form-group">
             <label for="name">Nome completo</label>
             <input name="nome" type="name" class="form-field" placeholder="Nome completo" />

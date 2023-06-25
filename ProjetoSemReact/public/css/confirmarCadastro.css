@@ -1,7 +1,36 @@
 .navbar{
-    background: #06080D;
+    background-color: #06080D;
     color: #FBFFFE;
+    
   }
+
+  .header{
+    background-color: #06080D;
+  }
+
+  .nav{  
+    background-color: #06080D;
+    margin-bottom: 30px;
+  }
+
+  
+  .footer {
+    position: relative;
+    z-index: 1;
+    
+    
+  }
+
+  .espacamento {
+    margin-top: 100px;
+    background-color: #06080D;
+  }
+
+  .espacamento-navbar {
+    margin-bottom: 50px;
+    background-color: #06080D;
+  }
+  
 
   .custom-alert {
     color:#923027;
@@ -20,8 +49,8 @@
       width: 100%;
       height: 100vh;
       /*fundo da página */
-      background: #06080D;
-      display: flex;
+      background-color: #06080D;
+      display:flex;
       justify-content: center;
       align-items: center;
     }
@@ -55,9 +84,11 @@
   
    a:hover{
     color: #fff;
+    
    }
    
     .left-cadastro {
+        background-color: #06080D;
       width: 50vw;
       height: 100vh;
       display: flex;
@@ -76,10 +107,12 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      background-color: #06080D;
     }
     
     .card-cadastro {
-      width: 60%;
+        margin-top: 100px;
+      width: 80%;
       display: flex;
       justify-content: center;
       /* align-items: center; */
@@ -87,13 +120,15 @@
       padding: 30px 35px;
       background-color: #F47968;
       border-radius: 20px;
+     
     }
     
     .card-cadastro h1 {
       color: #FFFFFF;
       font-weight: 800;
       margin: 0;
-      padding-top: 1rem;
+      margin-top: 50px;
+      padding-top: 2rem;
       padding-bottom: 3rem;
       display: flex;
       align-self: center;
@@ -101,6 +136,7 @@
     
     .chart{
       width: 80%;
+      
     }
     
     
@@ -111,6 +147,7 @@
       align-items: flex-start;
       justify-content: center;
       margin: 10px 0px;
+      
     }
     
     .form-field {
@@ -124,12 +161,13 @@
       box-shadow: 0px 10px 40px #F44E3F;
       box-sizing: border-box;
       outline: none;
+      
     }
     
     .form-group label {
       color: #f0ffffde;
       margin-bottom: 10px;
-    
+        
     }
     
     .form-error {
@@ -171,6 +209,7 @@
     @media (max-width: 950px){
       .card-cadastro{
         width: 100%;
+        
       }
     }
     
@@ -182,15 +221,18 @@
       .left-cadastro {
         width: 100%;
         height: auto;
+        
       }
     
       .right-cadastro {
         width: 100%;
         height: auto;
+        
       }
     
       .card-cadastro {
         width: 90%;
+        
         
       }
     }

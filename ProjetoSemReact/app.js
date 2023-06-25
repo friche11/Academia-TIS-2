@@ -60,20 +60,62 @@ app.get('/cadastro', (req,res)=>{
 })
 
 app.post('/cadastro', (req, res) =>{
+    var erros = []
+
+    if(!req.body.email || typeof req.body.email == undefined || req.body.email == null){
+        erros.push({texto: "E-mail inválido"})
+    }
+
+    if(!req.body.senha || typeof req.body.senha == undefined || req.body.senha == null){
+        erros.push({texto: "Senha inválida"})
+    }
+
+    if(req.body.senha.length<4 && req.body.senha == null){
+        erros.push({texto: "Senha muito curta"})
+    }
+
+    if(req.body.senha != req.body.confirmation){
+        erros.push({texto: "Senhas não coincidem"})
+    }
+
+    if(!req.body.type || typeof req.body.type == undefined || req.body.type == null){
+        erros.push({texto: "Identifique-se como aluno ou personal!"})
+    }
+
+      
     const type = req.body.type
     const email = req.body.email
     const senha = req.body.senha
 
     req.session.email = email
     req.session.senha = senha
+    req.session.type = type
 
-    if(type == 'aluno'){
-res.redirect('/aluno/cadastro')
-}
-if(type == 'personal'){
-    res.redirect('/personal/cadastro')
-}
-})
+    Aluno.findOne({ where: { email: email } }).then((aluno) => {
+        if (aluno) {
+          erros.push({ texto: "Uma conta com esse email já existe" });
+          res.render("cliente/cadastro", { erros: erros });
+        } else {
+          Personal.findOne({ where: { email: email } }).then((personal) => {
+            if (personal) {
+              erros.push({ texto: "Uma conta com esse email já existe" });
+              res.render("cliente/cadastro", { erros: erros });
+            } else {
+              // Se o email não estiver cadastrado, prosseguir com o registro
+              req.session.email = email;
+              req.session.senha = senha;
+              req.session.type = type;
+    
+              if (type == 'aluno') {
+                res.redirect('/aluno/cadastro');
+              } else if (type == 'personal') {
+                res.redirect('/personal/cadastro');
+              }
+            }
+          });
+        }
+      });
+    });
 
 app.get('/login', (req,res)=>{
     res.render('cliente/login')
@@ -87,6 +129,7 @@ app.post('/login', (req, res, next)=>{
     })(req, res, next)
 
 })
+
 
 app.get('/politica-de-privacidade', (req,res)=>{
     res.render('cliente/politicaPrivacidade')

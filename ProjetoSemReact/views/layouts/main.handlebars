@@ -11,20 +11,16 @@
     <title>ConectaGym</title>
 </head>
 <body>
-    
+ 
+    <div class="espacamento-navbar">
     {{>_navbar}}
+    </div>
     
-     {{#if error}}
-    <div class="alert alert-danger">{{error}}</div>
-        {{else}}
-
-        {{/if}}
-    {{>_msg}}
-    
-    
+    <div class="espacamento">
     {{{body}}}
+    </div>
     
-
+    <div class="espacamento">
     {{>_footer}}
     </div>
 </body>

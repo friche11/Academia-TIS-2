@@ -3,6 +3,9 @@
     background-color: #F47968;
     padding-top: 1rem;
     padding-bottom: 0.01rem;
+    position: absolute;
+  bottom: 0;
+    
   }
   
   .footerColumns {
