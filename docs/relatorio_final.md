@@ -352,7 +352,13 @@ Faça aqui uma breve descrição do software e coloque as principais telas com u
 
 ## 8. Conclusão
 
-Apresente aqui a conclusão do seu trabalho. Discussão dos resultados obtidos no trabalho, onde se verifica as observações pessoais de cada aluno. Poderá também apresentar sugestões de novas linhas de estudo.
+Em conclusão, o desenvolvimento do software ConectaGym apresenta uma solução promissora para os desafios enfrentados por alunos e personal trainers no contexto das atividades físicas e academias. Ao facilitar a interação entre ambos, o software busca melhorar a experiência do aluno, aumentar a eficácia dos treinos e fortalecer a imagem profissional dos personal trainers.
+
+Os resultados obtidos mostram que o ConectaGym pode oferecer uma plataforma personalizada que atende às necessidades e objetivos de cada aluno. A automatização de processos, como a criação de fichas de treino e o agendamento de aulas, agiliza e simplifica as atividades diárias tanto para os alunos quanto para os personal trainers, tornando o processo mais eficiente e conveniente.
+
+Além disso, o software proporciona uma experiência mais acessível para os alunos que desejam encontrar personal trainers qualificados a um preço razoável. Isso ajuda a superar as barreiras de custo e motivação, permitindo que mais pessoas tenha acesso a um treinamento físico de qualidade.
+
+Com base nos resultados obtidos, sugere-se a continuação do estudo no sentido de aprimorar ainda mais o software ConectaGym. Isso pode incluir a implementação de recursos adicionais, como monitoramento do progresso dos alunos, integração com dispositivos wearable ou até mesmo a expansão para outras áreas relacionadas à saúde e bem-estar.
 
 # REFERÊNCIAS
 
