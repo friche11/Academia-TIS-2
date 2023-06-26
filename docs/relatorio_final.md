@@ -344,7 +344,6 @@ Usar o seguinte modelo:
 | Taxa de adesão de personal | Medir o percentual de personais cadastrados em um semestre | Mede % de professores cadastrados em relação a quantidade do último semestre | (Quantidade de profissionais dos últimos 6 meses/Quantidade de profissionais no novo semestre) * 100  | Tabela Personal | Crescimento |
 | Taxa de adesão de alunos | Medir o percentual de alunos cadastrados em um semestre | Mede % de alunos cadastrados em relação a quantidade do último semestre | (Quantidade de alunos dos últimos 6 meses/Quantidade de alunos do novo semestre) * 100| Tabela Aluno | Crescimento |
 
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe **a ser proposto**
 
 ## 7.Sistema desenvolvido
 
