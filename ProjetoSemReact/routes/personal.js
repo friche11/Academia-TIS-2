@@ -1,11 +1,55 @@
 const express = require("express")
 const router = express.Router()
 const Personal = require('../models/Personal.js')
+const Ficha = require('../models/Ficha.js')
+ const Exercicio = require('../models/Exercicio.js')
 const bcrypt = require('bcryptjs')
 
 router.get("/cadastro",(req,res)=>{
     res.render("personal/confirmarCadastro")
 })
+
+router.get('/montar-ficha', (req,res)=>{
+  res.render('personal/montarFichas')
+})
+
+router.get('/fichas', (req, res)=>{
+  res.render('personal/fichas')
+})
+
+router.get('/fichas-cadastradas', (req, res)=>{
+  res.render('personal/verFichas')
+})
+
+// Rota para criar uma nova ficha com exercícios
+router.post('/montar-ficha', async (req, res) => {
+  try {
+    // Criação da ficha
+    const ficha = await Ficha.create({
+      nome: req.body.nome,
+      grupo_muscular: req.body.grupoMuscular
+    });
+
+    // Criação dos exercícios relacionados à ficha
+    for (let i = 0; i < req.body.exercicios.length; i++) {
+      const exercicioData = req.body.exercicios[i];
+      await Exercicio.create({
+        
+        nome_exercicio: exercicioData.nomeExercicio,
+        numero_repeticoes: exercicioData.numeroRepeticoes,
+        numero_series: exercicioData.numeroSeries,
+        descanso_entre_series: exercicioData.descansoSeries,
+        fichaId: ficha.id // Chave estrangeira para a ficha relacionada
+      });
+    }
+
+    req.flash("success_msg", "Ficha criada com sucesso")
+    res.redirect('/personal/fichas')
+  } catch (error) {
+    req.flash('error_msg', 'Erro ao criar ficha')
+    res.redirect('/personal/fichas')
+  }
+});
 
 router.post("/cadastro", (req, res) => {
     const email = req.session.email;

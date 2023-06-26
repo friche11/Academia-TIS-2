@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #06080d;
+  }
+  
+  .wrapper {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    background-color: #06080D;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+
+  h1 {
+    
+      color: #f44e3f;
+      font-size: 24px;
+      font-weight: 600;
+      text-align: center;
+    
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    max-height: 2000px;
+    margin-top: 40px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    color: #f44e3f;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #dadada;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #f44e3f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #d93228;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  a {
+    color: #000;
+  }
+  

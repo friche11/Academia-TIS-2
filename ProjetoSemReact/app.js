@@ -27,6 +27,8 @@
         const db = require('./models/db.js')
         const Aluno = require('./models/Aluno.js')
         const Personal = require('./models/Personal.js')
+        const Ficha = require('./models/Ficha.js')
+        const Exercicio = require('./models/Exercicio.js')
     // Sessao
         app.use(session({
             secret: "qualquercoisa",
@@ -49,6 +51,9 @@
     app.use(express.static(path.join(__dirname + "/public")))
 
 
+    // Relacionamentos
+    Ficha.hasMany(Exercicio); // Relacionamento: uma ficha possui muitos exercícios
+    Exercicio.belongsTo(Ficha); // Relacionamento: um exercício pertence a uma ficha
 
 // Rotas
 app.get('/', (req,res)=>{
@@ -58,6 +63,8 @@ app.get('/', (req,res)=>{
 app.get('/cadastro', (req,res)=>{
     res.render('cliente/cadastro')
 })
+
+app.get
 
 app.post('/cadastro', (req, res) =>{
     var erros = []

@@ -55,6 +55,13 @@
       align-items: center;
     }
     
+    
+    .wrapper{
+      padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: #06080D;
+    }
+    
     .user-links a{
       position: relative;
       color: #FBFFFE;
@@ -111,13 +118,13 @@
     }
     
     .card-cadastro {
-        margin-top: 100px;
+        margin-top: 60px;
       width: 80%;
       display: flex;
       justify-content: center;
       /* align-items: center; */
       flex-direction: column;
-      padding: 30px 35px;
+      padding: 10px 35px;
       background-color: #F47968;
       border-radius: 20px;
      
@@ -127,9 +134,9 @@
       color: #FFFFFF;
       font-weight: 800;
       margin: 0;
-      margin-top: 50px;
-      padding-top: 2rem;
-      padding-bottom: 3rem;
+      margin-top: 10px;
+      padding-top: 1rem;
+      padding-bottom: 2rem;
       display: flex;
       align-self: center;
     }
