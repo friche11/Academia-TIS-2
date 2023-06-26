@@ -27,8 +27,11 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
+_**Resumo**. Este trabalho tem como objetivo desenvolver um software que facilite a programação de treinos e a interação entre personal trainers e alunos, visando superar os desafios enfrentados por muitas pessoas ao tentar se exercitar regularmente. Problemas como custos elevados, falta de motivação, restrições de tempo e falta de conhecimento adequado podem dificultar a busca por um personal trainer experiente e confiável.
+
+O software ConectaGym, proposto neste trabalho, busca solucionar esses problemas por meio do desenvolvimento de um site responsivo que permite o cadastro de alunos e personal trainers, além de oferecer sistemas de login, montagem de treinos e criação de fichas de academia para cada aluno. Com isso, o software visa fornecer uma alternativa acessível para os alunos encontrarem personal trainers qualificados e estabelecerem uma rotina de exercícios eficaz.
+
+O resultado relevante deste trabalho é a contribuição para a redução de custos operacionais das academias, automatizando processos como criação de fichas de treino, agendamento de aulas e atualização de dados. Além disso, o software oferece uma experiência personalizada para cada aluno, levando em consideração suas necessidades e objetivos específicos, o que pode aumentar a eficácia dos treinos e melhorar os resultados obtidos pelos alunos.
 
 ---
 
