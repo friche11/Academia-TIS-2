@@ -380,7 +380,7 @@ Do código: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100
 
 Dos artefatos: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/tree/master/assets
 
-Da apresentação final (armazenado no repositório);
+Da apresentação final: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/blob/master/docs/Apresentação%20ConectaGym%20(3).pdf
 
 Do vídeo de apresentação (armazenado no repositório).
 
