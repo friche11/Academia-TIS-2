@@ -347,7 +347,20 @@ Usar o seguinte modelo:
 
 ## 7.Sistema desenvolvido
 
-Faça aqui uma breve descrição do software e coloque as principais telas com uma explicação de como usar cada uma.
+o software da ConectaGym é desenvolvido utilizando uma abordagem moderna e eficiente. Ele é implementado em uma linguagem de programação adequada para o desenvolvimento web, ambientado no Visual Studio Code e usa as tecnologias de HTML, CSS, JavaScript, Node.js: Express.js, nodemon, sequelize, mysql2, handlebars, express-session, connect-flash, bcryptjs, passportjs.
+
+Tela de Login, onde o usuário coloca as informações como: email e senha para entrar no site.
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/assets/104329840/ab88cf27-e287-4108-aebb-fc63a708d339)
+
+Tela de Cadastro, onde o usuário consegue inserir as informações dele como: email, senha e tipo de perfil para cadastrar no site.
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/assets/104329840/77eeb8b6-530c-4dd3-8b4a-75300a03b997)
+
+Tela de Fichas, onde o personal consegue criar as fichas ou ver as fichas ja criadas.
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/assets/104329840/67a9e2ae-76c9-48c0-ad1f-7f031d4075e1)
+
+Tela de criação de ficha, onde o personal consegue inserir as informações para a criar e salvar uma ficha com vários dados como: o nome da ficha, quais grupos musculares são os exercícios da ficha, nome dos exercícios, número de repetições, número de séries e tempo de descanso
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/assets/104329840/ae3a2760-9015-43c6-9f2d-bc13c5a339ba)
+
 
 ## 8. Conclusão
 
@@ -384,9 +397,9 @@ http://www.pucminas.br/imagedb/documento/DOC\_DSC\_NOME\_ARQUI20160217102425.pdf
 
 **Colocar link:**
 
-Do código (armazenado no repositório);
+Do código: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/tree/master/ProjetoSemReact
 
-Dos artefatos (armazenado do repositório);
+Dos artefatos: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti2-0924100-academia-tis-m/tree/master/assets
 
 Da apresentação final (armazenado no repositório);
 
