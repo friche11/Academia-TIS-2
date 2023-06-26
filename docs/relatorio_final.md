@@ -27,7 +27,7 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Este trabalho tem como objetivo desenvolver um software que facilite a programação de treinos e a interação entre personal trainers e alunos, visando superar os desafios enfrentados por muitas pessoas ao tentar se exercitar regularmente.
+Este trabalho tem como objetivo desenvolver um software que facilite a programação de treinos e a interação entre personal trainers e alunos, visando superar os desafios enfrentados por muitas pessoas ao tentar se exercitar regularmente.
 
 O software ConectaGym, proposto neste trabalho, busca solucionar esses problemas por meio do desenvolvimento de um site responsivo que permite o cadastro de alunos e personal trainers, além de oferecer sistemas de login, montagem de treinos e criação de fichas de academia para cada aluno. Com isso, o software visa fornecer uma alternativa acessível para os alunos encontrarem personal trainers qualificados e estabelecerem uma rotina de exercícios eficaz.
 
