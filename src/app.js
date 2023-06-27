@@ -108,14 +108,15 @@ app.post('/cadastro', (req, res) =>{
               erros.push({ texto: "Uma conta com esse email já existe" });
               res.render("cliente/cadastro", { erros: erros });
             } else {
+                res.render("cliente/cadastro", {erros: erros})
               // Se o email não estiver cadastrado, prosseguir com o registro
               req.session.email = email;
               req.session.senha = senha;
               req.session.type = type;
     
-              if (type == 'aluno') {
+              if (erros == null && type == 'aluno') {
                 res.redirect('/aluno/cadastro');
-              } else if (type == 'personal') {
+              } else if (erros == null && type == 'personal') {
                 res.redirect('/personal/cadastro');
               }
             }
