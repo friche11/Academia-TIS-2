@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ficha</title>
+  <link rel="stylesheet" href="../css/verFichas.css">
+</head>
+<body>
+    
+  <div class="wrapper">
+    <div class="container">
+    
+      <form action="/personal/verFichas" method="POST">
+        <div class="form-group">
+              <div class="title">
+        <h1>Fichas de treinamento</h1>
+        </div>
+          {{#each fichas}}
+        {{nome}}
+        {{grupo_muscular}}
+        {{else}}
+        <h4>Nenhuma ficha registrada!</h4>
+    {{/each}}
+    </div>
+    </div>
+
+
+</body>
+</html>

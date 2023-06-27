@@ -18,7 +18,19 @@ router.get('/fichas', (req, res)=>{
 })
 
 router.get('/fichas-cadastradas', (req, res)=>{
-  res.render('personal/verFichas')
+  Ficha.findAll({
+    include: ['Exercicio'],
+    where: { personalId: req.session.personalId }, // Filtra as fichas pelo ID do personal logado
+    order: [['date', 'DESC']],
+  })
+    .then((fichas) => {
+      res.render('personal/verFichas', { fichas: fichas });
+    })
+    .catch((err) => {
+      res.render('personal/verFichas')
+    });
+  
+ 
 })
 
 // Rota para criar uma nova ficha com exercícios
