@@ -76,6 +76,29 @@ router.post("/cadastro", (req, res) => {
       erros.push({ texto: "Preencha os campos vazios" });
     }
   
+    const reg = /^[A-Za-z]+$/
+    if (!reg.test(req.body.nome)) {
+        erros.push({ texto: "O campo 'nome' deve conter apenas letras!" });
+    }
+
+
+    if(!req.body.idade){
+      
+    }else if(req.body.idade > 119 || req.body.idade < 14 ){
+      erros.push({ texto: "Insira uma idade válida" });
+    }
+
+    // Validar campo 'data de nascimento' e 'idade'
+const dataNascimento = new Date(req.body.date);
+const hoje = new Date();
+const idade = hoje.getFullYear() - dataNascimento.getFullYear();
+
+if (isNaN(dataNascimento.getTime())) {
+    erros.push({ texto: "Insira uma data de nascimento" });
+} else if (idade !== parseInt(req.body.idade)) {
+    erros.push({ texto: "A idade informada não corresponde à data de nascimento" });
+}
+
   if(erros.length > 0){
     res.render("personal/confirmarCadastro", {erros: erros})
   }else{
